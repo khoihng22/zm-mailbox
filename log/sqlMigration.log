@@ -1,0 +1,12 @@
+Mon Nov 15 22:44:12 2021: SELECT value FROM config WHERE name = 'db.version'
+Mon Nov 15 22:44:13 2021: 111
+Mon Nov 15 22:44:13 2021: Schema version mismatch.  Expected version 110.  Version in the database is 111.
+
+Mon Nov 15 22:45:05 2021: SELECT value FROM config WHERE name = 'db.version'
+Mon Nov 15 22:45:06 2021: 111
+Mon Nov 15 22:45:06 2021: Schema version mismatch.  Expected version 109.  Version in the database is 111.
+
+Mon Nov 15 22:48:17 2021: SELECT value FROM config WHERE name = 'db.version'
+Mon Nov 15 22:48:18 2021: 111
+Mon Nov 15 22:48:18 2021: Schema version mismatch.  Expected version 108.  Version in the database is 111.
+

@@ -1,0 +1,531 @@
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Tue Nov  2 05:57:44 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.3
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily database available for update (local version: 21466, remote version: 26341)
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: Incremental update failed, trying to download daily.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.bc48963a80/clamav-17a4849c01420d691fed84fc547fe98d.tmp-daily.cvd' ...
+Database test passed.
+daily.cvd updated (version: 26341, sigs: 1941372, f-level: 90, builder: raynman)
+main database available for update (local version: 57, remote version: 62)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+Downloaded 2 patches for main, which is fewer than the 5 expected patches.
+We'll settle for this partial-update, at least for now.
+Testing database: '/opt/zimbra/data/clamav/db/tmp.bc48963a80/clamav-ec5bfd9c56a588730f96ab7d591e22b7.tmp-main.cld' ...
+Database test passed.
+main.cld updated (version: 59, sigs: 4564902, f-level: 60, builder: sigmgr)
+bytecode database available for update (local version: 275, remote version: 333)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+WARNING: Incremental update failed, trying to download bytecode.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.bc48963a80/clamav-9f3e03a6477a416ee4b877eccf576cd4.tmp-bytecode.cvd' ...
+Database test passed.
+bytecode.cvd updated (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov  2 07:58:50 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.3
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26341, sigs: 1941372, f-level: 90, builder: raynman)
+main database available for update (local version: 59, remote version: 62)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+WARNING: Incremental update failed, trying to download main.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.bc48963a80/clamav-20c4e62d984d0552df332c43da76d497.tmp-main.cvd' ...
+Database test passed.
+main.cvd updated (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov  2 09:59:32 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily database available for update (local version: 26341, remote version: 26343)
+Testing database: '/opt/zimbra/data/clamav/db/tmp.bc48963a80/clamav-6964dc6a172f570d5f2a66633cb9f0b6.tmp-daily.cld' ...
+Database test passed.
+daily.cld updated (version: 26343, sigs: 1941807, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov  2 11:59:50 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26343, sigs: 1941807, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov  2 13:59:50 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26343, sigs: 1941807, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov  2 15:59:50 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26343, sigs: 1941807, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov  2 17:59:50 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily database available for update (local version: 26343, remote version: 26344)
+Testing database: '/opt/zimbra/data/clamav/db/tmp.bc48963a80/clamav-f598f236ea8c931feca10be57aa06d66.tmp-daily.cld' ...
+Database test passed.
+daily.cld updated (version: 26344, sigs: 1941853, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov  2 20:00:00 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26344, sigs: 1941853, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov  2 22:00:00 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26344, sigs: 1941853, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 00:00:00 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26344, sigs: 1941853, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 02:00:00 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26344, sigs: 1941853, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 04:00:00 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26344, sigs: 1941853, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 06:00:00 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26344, sigs: 1941853, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 08:00:00 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily database available for update (local version: 26344, remote version: 26345)
+Testing database: '/opt/zimbra/data/clamav/db/tmp.bc48963a80/clamav-efbab0c5195ce2b161e59b832a0c5ca5.tmp-daily.cld' ...
+Database test passed.
+daily.cld updated (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 10:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 12:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 14:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 16:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 18:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 20:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Wed Nov  3 22:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Thu Nov  4 00:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Thu Nov  4 02:00:10 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cld database is up-to-date (version: 26345, sigs: 1941849, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Mon Nov 15 21:54:07 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily database available for update (local version: 21466, remote version: 26354)
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: Incremental update failed, trying to download daily.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.ee4d8a29ad/clamav-2acbf8ad9ae3837461441d91eb77c27d.tmp-daily.cvd' ...
+Database test passed.
+daily.cvd updated (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main database available for update (local version: 57, remote version: 62)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+Downloaded 2 patches for main, which is fewer than the 5 expected patches.
+We'll settle for this partial-update, at least for now.
+Testing database: '/opt/zimbra/data/clamav/db/tmp.ee4d8a29ad/clamav-552f16f4db855e49fd81a347967ee24f.tmp-main.cld' ...
+Database test passed.
+main.cld updated (version: 59, sigs: 4564902, f-level: 60, builder: sigmgr)
+bytecode database available for update (local version: 275, remote version: 333)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+WARNING: Incremental update failed, trying to download bytecode.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.ee4d8a29ad/clamav-bfdade91731724873195e83c7f80a3a5.tmp-bytecode.cvd' ...
+Database test passed.
+bytecode.cvd updated (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Mon Nov 15 22:21:26 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main database available for update (local version: 59, remote version: 62)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+WARNING: Incremental update failed, trying to download main.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.ce8638d027/clamav-7df458667b3cf8c76f289fd6840506f6.tmp-main.cvd' ...
+Database test passed.
+main.cvd updated (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Mon Nov 15 22:56:02 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Mon Nov 15 23:02:01 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Mon Nov 15 23:14:03 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Mon Nov 15 23:35:07 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Mon Nov 15 23:49:39 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 01:49:39 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Tue Nov 16 02:42:01 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Tue Nov 16 03:10:36 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26354, sigs: 1945178, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 05:10:36 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily database available for update (local version: 26354, remote version: 26355)
+Testing database: '/opt/zimbra/data/clamav/db/tmp.252d6d805c/clamav-2aae24c7f8aa23900cadcc0d33f6e471.tmp-daily.cld' ...
+Database test passed.
+daily.cld updated (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Tue Nov 16 05:36:29 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily database available for update (local version: 21466, remote version: 26355)
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadFile: file not found: https://database.clamav.net/daily-21467.cdiff
+WARNING: downloadPatch: Can't download daily-21467.cdiff from https://database.clamav.net/daily-21467.cdiff
+WARNING: Incremental update failed, trying to download daily.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.d770faaa13/clamav-851d814dac10c11fb06a1d22c6d80ee9.tmp-daily.cvd' ...
+Database test passed.
+daily.cvd updated (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main database available for update (local version: 57, remote version: 62)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+Downloaded 2 patches for main, which is fewer than the 5 expected patches.
+We'll settle for this partial-update, at least for now.
+Testing database: '/opt/zimbra/data/clamav/db/tmp.d770faaa13/clamav-a9e57d686c99ce06bc48143de9a2dcc7.tmp-main.cld' ...
+Database test passed.
+main.cld updated (version: 59, sigs: 4564902, f-level: 60, builder: sigmgr)
+bytecode database available for update (local version: 275, remote version: 333)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+WARNING: Incremental update failed, trying to download bytecode.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.d770faaa13/clamav-010ca95087c3b44f44abba79be12540d.tmp-bytecode.cvd' ...
+Database test passed.
+bytecode.cvd updated (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 07:37:21 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main database available for update (local version: 59, remote version: 62)
+ERROR: cdiff_apply: lseek(desc, -350, SEEK_END) failed
+ERROR: downloadPatch: Can't apply patch
+WARNING: Incremental update failed, trying to download main.cvd
+Testing database: '/opt/zimbra/data/clamav/db/tmp.d770faaa13/clamav-8e97ecc945b83f9931963b1d33bd0268.tmp-main.cvd' ...
+Database test passed.
+main.cvd updated (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+Clamd successfully notified about the update.
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 09:38:07 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 11:38:07 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 13:38:07 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 15:38:07 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 17:38:07 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+Received signal: wake up
+ClamAV update process started at Tue Nov 16 19:38:07 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Tue Nov 16 21:01:37 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------
+WARNING: Ignoring deprecated option SafeBrowsing at /opt/zimbra/conf/freshclam.conf:222
+--------------------------------------
+freshclam daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+ClamAV update process started at Tue Nov 16 21:11:14 2021
+WARNING: Your ClamAV installation is OUTDATED!
+WARNING: Local version: 0.103.2 Recommended version: 0.103.4
+DON'T PANIC! Read https://www.clamav.net/documents/upgrading-clamav
+daily.cvd database is up-to-date (version: 26355, sigs: 1945368, f-level: 90, builder: raynman)
+main.cvd database is up-to-date (version: 62, sigs: 6647427, f-level: 90, builder: sigmgr)
+bytecode.cvd database is up-to-date (version: 333, sigs: 92, f-level: 63, builder: awillia2)
+--------------------------------------

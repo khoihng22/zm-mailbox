@@ -1,0 +1,405 @@
+211102 05:55:01 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-02  5:55:01 140343182522240 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 10627 ...
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Using Linux native AIO
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB: Waiting for purge to start
+2021-11-02  5:55:01 140343182522240 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 1616826
+2021-11-02  5:55:01 140340430022400 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-02  5:55:01 140343182522240 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-02  5:55:01 140343182522240 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-02  5:55:01 140343182522240 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-02  5:56:08 140343181462272 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-02  5:56:08 140343181462272 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-02  5:56:08 140340455200512 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-02  5:56:08 140343181462272 [Note] InnoDB: Starting shutdown...
+2021-11-02  5:56:08 140343181462272 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-02  5:56:10 140343181462272 [Note] InnoDB: Shutdown completed; log sequence number 2016601
+2021-11-02  5:56:10 140343181462272 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211102 05:56:10 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211102 05:57:01 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-02  5:57:01 140280132274048 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 15496 ...
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: Using Linux native AIO
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-02  5:57:01 140280132274048 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-02  5:57:02 140280132274048 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-02  5:57:02 140280132274048 [Note] InnoDB: Waiting for purge to start
+2021-11-02  5:57:02 140280132274048 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 2016601
+2021-11-02  5:57:02 140277379774208 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-02  5:57:02 140280132274048 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-02  5:57:02 140280132274048 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-02  5:57:02 140280132274048 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+211115 21:53:24 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-15 21:53:24 140391050200960 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 3302 ...
+2021-11-15 21:53:24 140391050200960 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-15 21:53:24 140391050200960 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-15 21:53:24 140391050200960 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-15 21:53:24 140391050200960 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-15 21:53:24 140391050200960 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-15 21:53:24 140391050200960 [Note] InnoDB: Using Linux native AIO
+2021-11-15 21:53:24 140391050200960 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-15 21:53:24 140391050200960 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-15 21:53:25 140391050200960 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-15 21:53:25 140391050200960 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-15 21:53:25 140391050200960 [Note] InnoDB: The log sequence number 2016601 in ibdata file do not match the log sequence number 2646232 in the ib_logfiles!
+2021-11-15 21:53:25 140391050200960 [Note] InnoDB: Restoring possible half-written data pages from the doublewrite buffer...
+2021-11-15 21:53:25 140391050200960 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-15 21:53:25 140391050200960 [Note] InnoDB: Waiting for purge to start
+2021-11-15 21:53:25 140391050200960 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 2646232
+2021-11-15 21:53:25 140388297701120 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-15 21:53:25 140391050200960 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-15 21:53:25 140391050200960 [Note] Recovering after a crash using tc.log
+2021-11-15 21:53:25 140391050200960 [Note] Starting crash recovery...
+2021-11-15 21:53:25 140391050200960 [Note] Crash recovery finished.
+2021-11-15 21:53:25 140391050200960 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-15 21:53:25 140391050200960 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-15 22:18:57 140391048833792 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-15 22:18:57 140391048833792 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-15 22:18:57 140388331271936 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-15 22:18:57 140391048833792 [Note] InnoDB: Starting shutdown...
+2021-11-15 22:18:58 140391048833792 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-15 22:18:59 140391048833792 [Note] InnoDB: Shutdown completed; log sequence number 2646242
+2021-11-15 22:18:59 140391048833792 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211115 22:19:00 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211115 22:20:32 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-15 22:20:32 140584150878080 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 27427 ...
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: Using Linux native AIO
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-15 22:20:32 140584150878080 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-15 22:20:33 140584150878080 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-15 22:20:33 140584150878080 [Note] InnoDB: Waiting for purge to start
+2021-11-15 22:20:33 140584150878080 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 2646242
+2021-11-15 22:20:33 140581398378240 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-15 22:20:33 140584150878080 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-15 22:20:33 140584150878080 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-15 22:20:33 140584150878080 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-15 22:53:36 140584149510912 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-15 22:53:36 140584149510912 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-15 22:53:36 140581423556352 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-15 22:53:36 140584149510912 [Note] InnoDB: Starting shutdown...
+2021-11-15 22:53:37 140584149510912 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-15 22:53:38 140584149510912 [Note] InnoDB: Shutdown completed; log sequence number 2646481
+2021-11-15 22:53:38 140584149510912 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211115 22:53:39 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211115 22:55:08 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-15 22:55:08 140593999591296 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 26408 ...
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Using Linux native AIO
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB: Waiting for purge to start
+2021-11-15 22:55:08 140593999591296 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 2646481
+2021-11-15 22:55:08 140591247091456 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-15 22:55:08 140593999591296 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-15 22:55:08 140593999591296 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-15 22:55:08 140593999591296 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-15 22:59:42 140593998224128 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-15 22:59:42 140593998224128 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-15 22:59:42 140591272269568 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-15 22:59:42 140593998224128 [Note] InnoDB: Starting shutdown...
+2021-11-15 22:59:43 140593998224128 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-15 22:59:44 140593998224128 [Note] InnoDB: Shutdown completed; log sequence number 2646730
+2021-11-15 22:59:44 140593998224128 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211115 22:59:44 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211115 23:01:07 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-15 23:01:07 139712909490048 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 2807 ...
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Using Linux native AIO
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB: Waiting for purge to start
+2021-11-15 23:01:07 139712909490048 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 2646730
+2021-11-15 23:01:07 139712909490048 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-15 23:01:07 139710156990208 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-15 23:01:07 139712909490048 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-15 23:01:07 139712909490048 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-15 23:11:44 139712907815680 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-15 23:11:44 139712907815680 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-15 23:11:44 139710182168320 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-15 23:11:44 139712907815680 [Note] InnoDB: Starting shutdown...
+2021-11-15 23:11:44 139712907815680 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-15 23:11:45 139712907815680 [Note] InnoDB: Shutdown completed; log sequence number 2661434
+2021-11-15 23:11:45 139712907815680 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211115 23:11:45 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211115 23:13:05 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-15 23:13:05 140245337298816 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 15002 ...
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Using Linux native AIO
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB: Waiting for purge to start
+2021-11-15 23:13:05 140245337298816 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 2661434
+2021-11-15 23:13:06 140242584798976 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-15 23:13:06 140245337298816 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-15 23:13:06 140245337298816 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-15 23:13:06 140245337298816 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-15 23:32:49 140245335931648 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-15 23:32:49 140245335931648 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-15 23:32:49 140242609977088 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-15 23:32:49 140245335931648 [Note] InnoDB: Starting shutdown...
+2021-11-15 23:32:50 140245335931648 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-15 23:32:52 140245335931648 [Note] InnoDB: Shutdown completed; log sequence number 2661444
+2021-11-15 23:32:52 140245335931648 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211115 23:32:52 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211115 23:34:16 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-15 23:34:16 140301560571776 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 3986 ...
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: Using Linux native AIO
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-15 23:34:16 140301560571776 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-15 23:34:17 140301560571776 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-15 23:34:17 140301560571776 [Note] InnoDB: Waiting for purge to start
+2021-11-15 23:34:17 140301560571776 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 2661444
+2021-11-15 23:34:17 140298808071936 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-15 23:34:17 140301560571776 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-15 23:34:17 140301560571776 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-15 23:34:17 140301560571776 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-15 23:47:19 140301559204608 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-15 23:47:19 140301559204608 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-15 23:47:19 140298841642752 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-15 23:47:19 140301559204608 [Note] InnoDB: Starting shutdown...
+2021-11-15 23:47:20 140301559204608 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-15 23:47:22 140301559204608 [Note] InnoDB: Shutdown completed; log sequence number 3218342
+2021-11-15 23:47:22 140301559204608 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211115 23:47:22 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211115 23:48:43 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-15 23:48:44 140332266547072 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 19814 ...
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Using Linux native AIO
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB: Waiting for purge to start
+2021-11-15 23:48:44 140332266547072 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 3218342
+2021-11-15 23:48:44 140329514047232 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-15 23:48:44 140332266547072 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-15 23:48:44 140332266547072 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-15 23:48:44 140332266547072 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-16  2:39:32 140332264872704 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-16  2:39:32 140332264872704 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-16  2:39:32 140329539225344 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-16  2:39:32 140332264872704 [Note] InnoDB: Starting shutdown...
+2021-11-16  2:39:33 140332264872704 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-16  2:39:34 140332264872704 [Note] InnoDB: Shutdown completed; log sequence number 3577016
+2021-11-16  2:39:34 140332264872704 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211116 02:39:34 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211116 02:40:58 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-16  2:40:58 139718449313664 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 24879 ...
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Using Linux native AIO
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB: Waiting for purge to start
+2021-11-16  2:40:59 139718449313664 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 3577016
+2021-11-16  2:40:59 139715696813824 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-16  2:40:59 139718449313664 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-16  2:40:59 139718449313664 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-16  2:40:59 139718449313664 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-16  3:07:52 139718447946496 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-16  3:07:52 139718447946496 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-16  3:07:52 139715730384640 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-16  3:07:52 139718447946496 [Note] InnoDB: Starting shutdown...
+2021-11-16  3:07:53 139718447946496 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-16  3:07:54 139718447946496 [Note] InnoDB: Shutdown completed; log sequence number 3577026
+2021-11-16  3:07:54 139718447946496 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211116 03:07:55 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211116 03:09:18 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-16  3:09:18 140430833842048 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 17441 ...
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Using Linux native AIO
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB: Waiting for purge to start
+2021-11-16  3:09:18 140430833842048 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 3577026
+2021-11-16  3:09:18 140428081342208 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-16  3:09:18 140430833842048 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-16  3:09:18 140430833842048 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-16  3:09:18 140430833842048 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-16  5:33:55 140430832167680 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-16  5:33:55 140430832167680 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-16  5:33:55 140428106520320 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-16  5:33:55 140430832167680 [Note] InnoDB: Starting shutdown...
+2021-11-16  5:33:56 140430832167680 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-16  5:33:57 140430832167680 [Note] InnoDB: Shutdown completed; log sequence number 3790010
+2021-11-16  5:33:57 140430832167680 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211116 05:33:57 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211116 05:35:27 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-16  5:35:27 140636392507264 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 31226 ...
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: Using Linux native AIO
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-16  5:35:27 140636392507264 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-16  5:35:28 140636392507264 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-16  5:35:28 140636392507264 [Note] InnoDB: Waiting for purge to start
+2021-11-16  5:35:28 140636392507264 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 3790010
+2021-11-16  5:35:28 140633640007424 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-16  5:35:28 140636392507264 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-16  5:35:28 140636392507264 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-16  5:35:28 140636392507264 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-16 20:59:51 140633623218944 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-16 20:59:51 140633623218944 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-16 20:59:51 140633665185536 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-16 20:59:51 140633623218944 [Note] InnoDB: Starting shutdown...
+2021-11-16 20:59:51 140633623218944 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-16 20:59:53 140633623218944 [Note] InnoDB: Shutdown completed; log sequence number 4334301
+2021-11-16 20:59:53 140633623218944 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211116 20:59:54 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211116 21:01:00 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-16 21:01:00 140591080187776 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 23586 ...
+2021-11-16 21:01:00 140591080187776 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-16 21:01:00 140591080187776 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-16 21:01:00 140591080187776 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-16 21:01:00 140591080187776 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-16 21:01:00 140591080187776 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-16 21:01:00 140591080187776 [Note] InnoDB: Using Linux native AIO
+2021-11-16 21:01:00 140591080187776 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-16 21:01:00 140591080187776 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-16 21:01:01 140591080187776 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-16 21:01:01 140591080187776 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-16 21:01:01 140591080187776 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-16 21:01:01 140591080187776 [Note] InnoDB: Waiting for purge to start
+2021-11-16 21:01:01 140591080187776 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 4334301
+2021-11-16 21:01:01 140588327687936 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-16 21:01:01 140591080187776 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-16 21:01:01 140591080187776 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-16 21:01:01 140591080187776 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution
+2021-11-16 21:08:33 140591078820608 [Note] /opt/zimbra/common/sbin/mysqld: Normal shutdown
+
+2021-11-16 21:08:33 140591078820608 [Note] Event Scheduler: Purging the queue. 0 events
+2021-11-16 21:08:33 140588361258752 [Note] InnoDB: FTS optimize thread exiting.
+2021-11-16 21:08:33 140591078820608 [Note] InnoDB: Starting shutdown...
+2021-11-16 21:08:34 140591078820608 [Note] InnoDB: Waiting for page_cleaner to finish flushing of buffer pool
+2021-11-16 21:08:35 140591078820608 [Note] InnoDB: Shutdown completed; log sequence number 4398459
+2021-11-16 21:08:35 140591078820608 [Note] /opt/zimbra/common/sbin/mysqld: Shutdown complete
+
+211116 21:08:35 mysqld_safe mysqld from pid file /opt/zimbra/log/mysql.pid ended
+211116 21:10:36 mysqld_safe Starting mysqld daemon with databases from /opt/zimbra/db/data
+2021-11-16 21:10:37 140214821926784 [Note] /opt/zimbra/common/sbin/mysqld (mysqld 10.1.25-MariaDB) starting as process 19883 ...
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: The InnoDB memory heap is disabled
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Using Linux native AIO
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Using SSE crc32 instructions
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Initializing buffer pool, size = 2.3G
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Completed initialization of buffer pool
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Highest supported file format is Barracuda.
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: 128 rollback segment(s) are active.
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB: Waiting for purge to start
+2021-11-16 21:10:37 140214821926784 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.36-82.0 started; log sequence number 4398459
+2021-11-16 21:10:37 140212069426944 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2021-11-16 21:10:37 140214821926784 [Note] Plugin 'FEEDBACK' is disabled.
+2021-11-16 21:10:37 140214821926784 [Note] Server socket created on IP: '127.0.0.1'.
+2021-11-16 21:10:37 140214821926784 [Note] /opt/zimbra/common/sbin/mysqld: ready for connections.
+Version: '10.1.25-MariaDB'  socket: '/opt/zimbra/data/tmp/mysql/mysql.sock'  port: 7306  Zimbra MariaDB binary distribution

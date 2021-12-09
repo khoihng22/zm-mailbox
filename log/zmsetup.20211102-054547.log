@@ -1,0 +1,1112 @@
+Tue Nov  2 05:45:47 2021 Operations logged to /tmp/zmsetup.20211102-054547.log
+Tue Nov  2 05:45:47 2021 Installing LDAP configuration database...
+Tue Nov  2 05:45:47 2021 done.
+Tue Nov  2 05:45:47 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmldapschema 2>/dev/null
+Looking for LDAP installation...succeeded
+Installing core schema...
+Installing cosine schema...
+Installing inetOrgPerson schema...
+Installing zimbra schema...
+Installing amavis schema...
+Installing dyngroup schema...
+Installing OpenDKIM schema...
+Tue Nov  2 05:45:48 2021 Getting installed packages
+Tue Nov  2 05:45:49 2021 checking isEnabled zimbra-core
+Tue Nov  2 05:45:49 2021 zimbra-core not in enabled cache
+Tue Nov  2 05:45:49 2021 enabled packages 
+Tue Nov  2 05:45:49 2021 Newinstall enabling all installed packages
+Tue Nov  2 05:45:49 2021 Enabling zimbra-core
+Tue Nov  2 05:45:49 2021 Enabling zimbra-ldap
+Tue Nov  2 05:45:49 2021 Enabling zimbra-logger
+Tue Nov  2 05:45:49 2021 Enabling zimbra-mta
+Tue Nov  2 05:45:49 2021 Enabling zimbra-dnscache
+Tue Nov  2 05:45:49 2021 Enabling zimbra-snmp
+Tue Nov  2 05:45:49 2021 Enabling zimbra-store
+Tue Nov  2 05:45:49 2021 Enabling zimbra-apache
+Tue Nov  2 05:45:49 2021 Enabling zimbra-spell
+Tue Nov  2 05:45:49 2021 Enabling zimbra-memcached
+Tue Nov  2 05:45:49 2021 Enabling zimbra-proxy
+Tue Nov  2 05:45:50 2021 Determining installed web applications
+Tue Nov  2 05:45:50 2021 Web application service is enabled.
+Tue Nov  2 05:45:50 2021 Web application zimbra is enabled.
+Tue Nov  2 05:45:50 2021 Web application zimbraAdmin is enabled.
+Tue Nov  2 05:45:50 2021 Web application zimlet is enabled.
+Tue Nov  2 05:45:50 2021 Setting defaults...
+Tue Nov  2 05:45:51 2021 Setting local config zimbra_java_home to /opt/zimbra/common/lib/jvm/java
+Tue Nov  2 05:45:51 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_java_home='/opt/zimbra/common/lib/jvm/java' 2> /dev/null
+Tue Nov  2 05:45:53 2021 checking isEnabled zimbra-dnscache
+Tue Nov  2 05:45:53 2021 zimbra-dnscache is enabled
+Tue Nov  2 05:45:53 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:45:53 2021 zimbra-store is enabled
+Tue Nov  2 05:45:58 2021 checking isEnabled zimbra-imapd
+Tue Nov  2 05:45:58 2021 zimbra-imapd not in enabled cache
+Tue Nov  2 05:45:58 2021 enabled packages zimbra-logger zimbra-store zimbra-memcached zimbra-mta zimbra-dnscache zimbra-core zimbra-apache zimbra-proxy zimbra-snmp zimbra-spell zimbra-ldap
+Tue Nov  2 05:45:58 2021 Newinstall enabling all installed packages
+Tue Nov  2 05:45:58 2021 Enabling zimbra-core
+Tue Nov  2 05:45:58 2021 Enabling zimbra-ldap
+Tue Nov  2 05:45:58 2021 Enabling zimbra-logger
+Tue Nov  2 05:45:58 2021 Enabling zimbra-mta
+Tue Nov  2 05:45:58 2021 Enabling zimbra-dnscache
+Tue Nov  2 05:45:58 2021 Enabling zimbra-snmp
+Tue Nov  2 05:45:58 2021 Enabling zimbra-store
+Tue Nov  2 05:45:58 2021 Enabling zimbra-apache
+Tue Nov  2 05:45:58 2021 Enabling zimbra-spell
+Tue Nov  2 05:45:58 2021 Enabling zimbra-memcached
+Tue Nov  2 05:45:58 2021 Enabling zimbra-proxy
+Tue Nov  2 05:45:58 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:45:58 2021 zimbra-ldap is enabled
+Tue Nov  2 05:45:59 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:45:59 2021 zimbra-ldap is enabled
+Tue Nov  2 05:45:59 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:45:59 2021 zimbra-store is enabled
+Tue Nov  2 05:45:59 2021 Local timezone detected as EDT
+Tue Nov  2 05:45:59 2021 Default Olson timezone name America/Grand_Turk
+Tue Nov  2 05:45:59 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:45:59 2021 zimbra-store is enabled
+Tue Nov  2 05:45:59 2021 checking isEnabled zimbra-mta
+Tue Nov  2 05:45:59 2021 zimbra-mta is enabled
+Tue Nov  2 05:45:59 2021 
+
+DNS ERROR resolving MX for mail.nhk.com
+Tue Nov  2 05:45:59 2021 It is suggested that the domain name have an MX record configured in DNS
+Tue Nov  2 05:46:43 2021 done.
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:46:43 2021 zimbra-ldap is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:46:43 2021 zimbra-store is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-mta
+Tue Nov  2 05:46:43 2021 zimbra-mta is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:46:43 2021 zimbra-proxy is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-mta
+Tue Nov  2 05:46:43 2021 zimbra-mta is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-core
+Tue Nov  2 05:46:43 2021 zimbra-core is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-spell
+Tue Nov  2 05:46:43 2021 zimbra-spell is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:46:43 2021 zimbra-proxy is enabled
+Tue Nov  2 05:46:43 2021 Checking for port conflicts
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:46:43 2021 zimbra-ldap is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:46:43 2021 zimbra-store is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-logger
+Tue Nov  2 05:46:43 2021 zimbra-logger is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-mta
+Tue Nov  2 05:46:43 2021 zimbra-mta is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:46:43 2021 zimbra-ldap is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-mta
+Tue Nov  2 05:46:43 2021 zimbra-mta is enabled
+Tue Nov  2 05:46:43 2021 checking isEnabled zimbra-archiving
+Tue Nov  2 05:46:43 2021 zimbra-archiving not in enabled cache
+Tue Nov  2 05:46:43 2021 enabled packages zimbra-logger zimbra-store zimbra-memcached zimbra-mta zimbra-dnscache zimbra-core zimbra-apache zimbra-proxy zimbra-imapd zimbra-snmp zimbra-spell zimbra-ldap
+Tue Nov  2 05:46:43 2021 Newinstall enabling all installed packages
+Tue Nov  2 05:46:43 2021 Enabling zimbra-core
+Tue Nov  2 05:46:44 2021 Enabling zimbra-ldap
+Tue Nov  2 05:46:44 2021 Enabling zimbra-logger
+Tue Nov  2 05:46:44 2021 Enabling zimbra-mta
+Tue Nov  2 05:46:44 2021 Enabling zimbra-dnscache
+Tue Nov  2 05:46:44 2021 Enabling zimbra-snmp
+Tue Nov  2 05:46:44 2021 Enabling zimbra-store
+Tue Nov  2 05:46:44 2021 Enabling zimbra-apache
+Tue Nov  2 05:46:44 2021 Enabling zimbra-spell
+Tue Nov  2 05:46:44 2021 Enabling zimbra-memcached
+Tue Nov  2 05:46:44 2021 Enabling zimbra-proxy
+Tue Nov  2 05:46:44 2021 checking isComponentAvailable archiving
+Tue Nov  2 05:46:44 2021 Component archiving is not available.
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-dnscache
+Tue Nov  2 05:46:44 2021 zimbra-dnscache is enabled
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-snmp
+Tue Nov  2 05:46:44 2021 zimbra-snmp is enabled
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:46:44 2021 zimbra-store is enabled
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:46:44 2021 zimbra-proxy is enabled
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:46:44 2021 zimbra-proxy is enabled
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:46:44 2021 zimbra-proxy is enabled
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:46:44 2021 zimbra-store is enabled
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:46:44 2021 zimbra-store is enabled
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:46:44 2021 zimbra-store is enabled
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:46:44 2021 zimbra-store is enabled
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:46:44 2021 zimbra-proxy is enabled
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:46:44 2021 zimbra-proxy is enabled
+Tue Nov  2 05:46:44 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:46:44 2021 zimbra-proxy is enabled
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:46:44 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:03 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:47:03 2021 zimbra-store is enabled
+Tue Nov  2 05:47:03 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:03 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:03 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:03 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:03 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:03 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:03 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:03 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:03 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:03 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:03 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:13 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:47:13 2021 zimbra-store is enabled
+Tue Nov  2 05:47:13 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:13 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:13 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:13 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:13 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:13 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:13 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:13 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:13 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:13 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:13 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:47:28 2021 zimbra-ldap is enabled
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-mta
+Tue Nov  2 05:47:28 2021 zimbra-mta is enabled
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-archiving
+Tue Nov  2 05:47:28 2021 zimbra-archiving is not enabled
+Tue Nov  2 05:47:28 2021 checking isComponentAvailable archiving
+Tue Nov  2 05:47:28 2021 Component archiving is not available.
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-dnscache
+Tue Nov  2 05:47:28 2021 zimbra-dnscache is enabled
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-snmp
+Tue Nov  2 05:47:28 2021 zimbra-snmp is enabled
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:47:28 2021 zimbra-store is enabled
+Tue Nov  2 05:47:28 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:28 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:28 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:28 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:28 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:47:28 2021 zimbra-proxy is enabled
+Tue Nov  2 05:47:28 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:28 2021 This is the ldap master and ldap hasn't been configured yet.
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:47:28 2021 zimbra-store is enabled
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:47:28 2021 zimbra-store is enabled
+Tue Nov  2 05:47:28 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:47:28 2021 zimbra-store is enabled
+Tue Nov  2 05:47:45 2021 Saving config in y...
+Tue Nov  2 05:47:45 2021 done.
+Tue Nov  2 05:47:52 2021 Operations logged to /tmp/zmsetup.20211102-054547.log
+Tue Nov  2 05:47:52 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:47:52 2021 zimbra-store is enabled
+Tue Nov  2 05:47:52 2021 Determining installed web applications
+Tue Nov  2 05:47:52 2021 Web application service is enabled.
+Tue Nov  2 05:47:52 2021 Web application zimbra is enabled.
+Tue Nov  2 05:47:52 2021 Web application zimbraAdmin is enabled.
+Tue Nov  2 05:47:52 2021 Web application zimlet is enabled.
+Tue Nov  2 05:47:52 2021 Setting local config values...
+Tue Nov  2 05:47:52 2021 Setting local config zimbra_server_hostname to mail.nhk.com
+Tue Nov  2 05:47:52 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_server_hostname='mail.nhk.com' 2> /dev/null
+Tue Nov  2 05:47:52 2021 Setting local config zimbra_require_interprocess_security to 1
+Tue Nov  2 05:47:52 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_require_interprocess_security='1' 2> /dev/null
+Tue Nov  2 05:47:53 2021 Setting local config ldap_master_url to ldap://mail.nhk.com:389
+Tue Nov  2 05:47:53 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ldap_master_url='ldap://mail.nhk.com:389' 2> /dev/null
+Tue Nov  2 05:47:54 2021 Setting local config ldap_url to ldap://mail.nhk.com:389
+Tue Nov  2 05:47:54 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ldap_url='ldap://mail.nhk.com:389' 2> /dev/null
+Tue Nov  2 05:47:55 2021 Setting local config ldap_starttls_supported to 1
+Tue Nov  2 05:47:55 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ldap_starttls_supported='1' 2> /dev/null
+Tue Nov  2 05:47:56 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:47:56 2021 zimbra-store is enabled
+Tue Nov  2 05:47:56 2021 Setting local config zimbra_zmprov_default_to_ldap to false
+Tue Nov  2 05:47:56 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_zmprov_default_to_ldap='false' 2> /dev/null
+Tue Nov  2 05:47:56 2021 Setting local config ldap_port to 389
+Tue Nov  2 05:47:56 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ldap_port='389' 2> /dev/null
+Tue Nov  2 05:47:57 2021 Setting local config ldap_host to mail.nhk.com
+Tue Nov  2 05:47:57 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ldap_host='mail.nhk.com' 2> /dev/null
+Tue Nov  2 05:47:58 2021 Setting local config zimbra_uid to 997
+Tue Nov  2 05:47:58 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_uid='997' 2> /dev/null
+Tue Nov  2 05:47:59 2021 Setting local config zimbra_gid to 995
+Tue Nov  2 05:47:59 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_gid='995' 2> /dev/null
+Tue Nov  2 05:48:00 2021 Setting local config zimbra_user to zimbra
+Tue Nov  2 05:48:00 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_user='zimbra' 2> /dev/null
+Tue Nov  2 05:48:00 2021 Setting local config av_notify_user to admin@mail.nhk.com
+Tue Nov  2 05:48:00 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e av_notify_user='admin@mail.nhk.com' 2> /dev/null
+Tue Nov  2 05:48:01 2021 Setting local config av_notify_domain to mail.nhk.com
+Tue Nov  2 05:48:01 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e av_notify_domain='mail.nhk.com' 2> /dev/null
+Tue Nov  2 05:48:02 2021 Setting local config ssl_allow_untrusted_certs to true
+Tue Nov  2 05:48:02 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ssl_allow_untrusted_certs='true' 2> /dev/null
+Tue Nov  2 05:48:03 2021 Setting local config ssl_allow_mismatched_certs to true
+Tue Nov  2 05:48:03 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ssl_allow_mismatched_certs='true' 2> /dev/null
+Tue Nov  2 05:48:04 2021 Setting local config ssl_default_digest to sha256
+Tue Nov  2 05:48:04 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ssl_default_digest='sha256' 2> /dev/null
+Tue Nov  2 05:48:05 2021 Setting local config mailboxd_java_heap_size to 1920
+Tue Nov  2 05:48:05 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e mailboxd_java_heap_size='1920' 2> /dev/null
+Tue Nov  2 05:48:06 2021 Setting local config mailboxd_directory to /opt/zimbra/mailboxd
+Tue Nov  2 05:48:06 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e mailboxd_directory='/opt/zimbra/mailboxd' 2> /dev/null
+Tue Nov  2 05:48:07 2021 Setting local config mailboxd_keystore to /opt/zimbra/mailboxd/etc/keystore
+Tue Nov  2 05:48:07 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e mailboxd_keystore='/opt/zimbra/mailboxd/etc/keystore' 2> /dev/null
+Tue Nov  2 05:48:08 2021 Setting local config mailboxd_server to jetty
+Tue Nov  2 05:48:08 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e mailboxd_server='jetty' 2> /dev/null
+Tue Nov  2 05:48:09 2021 Setting local config mailboxd_truststore to /opt/zimbra/common/lib/jvm/java/lib/security/cacerts
+Tue Nov  2 05:48:09 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e mailboxd_truststore='/opt/zimbra/common/lib/jvm/java/lib/security/cacerts' 2> /dev/null
+Tue Nov  2 05:48:09 2021 Setting local config mailboxd_truststore_password to changeit
+Tue Nov  2 05:48:09 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e mailboxd_truststore_password='changeit' 2> /dev/null
+Tue Nov  2 05:48:10 2021 Setting local config mailboxd_keystore_password to bwpjh7i5
+Tue Nov  2 05:48:10 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e mailboxd_keystore_password='bwpjh7i5' 2> /dev/null
+Tue Nov  2 05:48:11 2021 Setting local config zimbra_ldap_userdn to uid=zimbra,cn=admins,cn=zimbra
+Tue Nov  2 05:48:11 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_ldap_userdn='uid=zimbra,cn=admins,cn=zimbra' 2> /dev/null
+Tue Nov  2 05:48:12 2021 done.
+Tue Nov  2 05:48:12 2021 checking isEnabled zimbra-core
+Tue Nov  2 05:48:12 2021 zimbra-core is enabled
+Tue Nov  2 05:48:12 2021 Initializing core config...
+Tue Nov  2 05:48:12 2021 Setting up CA...
+Tue Nov  2 05:48:12 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr createca -new
+** Creating directory '/opt/zimbra/conf/ca'
+** Creating directory '/opt/zimbra/ssl/zimbra'
+** Creating directory '/opt/zimbra/ssl/zimbra/ca'
+** Creating directory '/opt/zimbra/ssl/zimbra/commercial'
+** Creating directory '/opt/zimbra/ssl/zimbra/server'
+** Creating directory '/opt/zimbra/ssl/zimbra/ca/newcerts'
+** Touching file '/opt/zimbra/ssl/.rnd'
+** Touching file '/opt/zimbra/ssl/zimbra/ca/index.txt'
+** Creating /opt/zimbra/ssl/zimbra/ca/zmssl.cnf
+** Retrieving CA private key from LDAP... failed
+** Creating CA with new private key /opt/zimbra/ssl/zimbra/ca/ca.key
+Generating a RSA private key
+...........................................+++++
+................................+++++
+writing new private key to '/opt/zimbra/ssl/zimbra/ca/ca.key'
+-----
+Tue Nov  2 05:48:16 2021 done.
+Tue Nov  2 05:48:16 2021 Deploying CA to /opt/zimbra/conf/ca ...
+Tue Nov  2 05:48:16 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr deployca -localonly
+** Importing cert '/opt/zimbra/ssl/zimbra/ca/ca.pem' as 'my_ca' into cacerts '/opt/zimbra/common/lib/jvm/java/lib/security/cacerts'
+** NOTE: restart mailboxd to use the imported certificate.
+** Copying CA to /opt/zimbra/conf/ca
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.key' to '/opt/zimbra/conf/ca/ca.key'
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.pem' to '/opt/zimbra/conf/ca/ca.pem'
+** Creating CA hash symlink 'd68c1b1a.0' -> 'ca.pem'
+Tue Nov  2 05:48:18 2021 done.
+Tue Nov  2 05:48:18 2021 Creating SSL zimbra-store certificate...
+Tue Nov  2 05:48:18 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr createcrt -new
+** Backup /opt/zimbra/ssl/zimbra to /opt/zimbra/ssl/zimbra.20211102054819
+** Creating /opt/zimbra/conf/zmssl.cnf
+** Generating a server CSR of type 'self' for download
+** Using CA cert in '/opt/zimbra/ssl/zimbra/ca/ca.pem'
+** Using CA private key in '/opt/zimbra/ssl/zimbra/ca/ca.key'
+** Retrieving Commercial CA cert from LDAP... failed
+** Creating server cert request /opt/zimbra/ssl/zimbra/server/server.csr with keysize=2048 digest=sha256
+** Saving config key 'zimbraSSLPrivateKey' via zmprov modifyServer mail.nhk.com...failed (rc=1)
+** Signing cert request /opt/zimbra/ssl/zimbra/server/server.csr
+Tue Nov  2 05:48:27 2021 done.
+Tue Nov  2 05:48:27 2021 Creating new zimbra-ldap SSL certificate...
+Tue Nov  2 05:48:27 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr createcrt -new
+** Backup /opt/zimbra/ssl/zimbra to /opt/zimbra/ssl/zimbra.20211102054828
+** Recreating /opt/zimbra/conf/zmssl.cnf
+** Generating a server CSR of type 'self' for download
+** Using CA cert in '/opt/zimbra/ssl/zimbra/ca/ca.pem'
+** Using CA private key in '/opt/zimbra/ssl/zimbra/ca/ca.key'
+** Retrieving Commercial CA cert from LDAP... failed
+** Creating server cert request /opt/zimbra/ssl/zimbra/server/server.csr with keysize=2048 digest=sha256
+** Saving config key 'zimbraSSLPrivateKey' via zmprov modifyServer mail.nhk.com...failed (rc=1)
+** Signing cert request /opt/zimbra/ssl/zimbra/server/server.csr
+Tue Nov  2 05:48:35 2021 done.
+Tue Nov  2 05:48:35 2021 Creating new zimbra-mta SSL certificate...
+Tue Nov  2 05:48:35 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr createcrt -new
+** Backup /opt/zimbra/ssl/zimbra to /opt/zimbra/ssl/zimbra.20211102054837
+** Recreating /opt/zimbra/conf/zmssl.cnf
+** Generating a server CSR of type 'self' for download
+** Using CA cert in '/opt/zimbra/ssl/zimbra/ca/ca.pem'
+** Using CA private key in '/opt/zimbra/ssl/zimbra/ca/ca.key'
+** Retrieving Commercial CA cert from LDAP... failed
+** Creating server cert request /opt/zimbra/ssl/zimbra/server/server.csr with keysize=2048 digest=sha256
+** Saving config key 'zimbraSSLPrivateKey' via zmprov modifyServer mail.nhk.com...failed (rc=1)
+** Signing cert request /opt/zimbra/ssl/zimbra/server/server.csr
+Tue Nov  2 05:48:44 2021 done.
+Tue Nov  2 05:48:44 2021 Creating new zimbra-proxy SSL certificate...
+Tue Nov  2 05:48:44 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr createcrt -new
+** Backup /opt/zimbra/ssl/zimbra to /opt/zimbra/ssl/zimbra.20211102054845
+** Recreating /opt/zimbra/conf/zmssl.cnf
+** Generating a server CSR of type 'self' for download
+** Using CA cert in '/opt/zimbra/ssl/zimbra/ca/ca.pem'
+** Using CA private key in '/opt/zimbra/ssl/zimbra/ca/ca.key'
+** Retrieving Commercial CA cert from LDAP... failed
+** Creating server cert request /opt/zimbra/ssl/zimbra/server/server.csr with keysize=2048 digest=sha256
+** Saving config key 'zimbraSSLPrivateKey' via zmprov modifyServer mail.nhk.com...failed (rc=1)
+** Signing cert request /opt/zimbra/ssl/zimbra/server/server.csr
+Tue Nov  2 05:48:52 2021 done.
+Tue Nov  2 05:48:52 2021 Installing mailboxd SSL certificates...
+Tue Nov  2 05:48:52 2021 /opt/zimbra/mailboxd/etc/keystore didn't exist.
+Tue Nov  2 05:48:52 2021 -new was ne "".
+Tue Nov  2 05:48:52 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr deploycrt self
+** Installing imapd certificate '/opt/zimbra/conf/imapd.crt' and key '/opt/zimbra/conf/imapd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/imapd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/imapd.key'
+** Creating file '/opt/zimbra/ssl/zimbra/jetty.pkcs12'
+** Creating keystore '/opt/zimbra/conf/imapd.keystore'
+** Installing ldap certificate '/opt/zimbra/conf/slapd.crt' and key '/opt/zimbra/conf/slapd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/slapd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/slapd.key'
+** Creating file '/opt/zimbra/ssl/zimbra/jetty.pkcs12'
+** Creating keystore '/opt/zimbra/mailboxd/etc/keystore'
+** Installing mta certificate '/opt/zimbra/conf/smtpd.crt' and key '/opt/zimbra/conf/smtpd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/smtpd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/smtpd.key'
+** Installing proxy certificate '/opt/zimbra/conf/nginx.crt' and key '/opt/zimbra/conf/nginx.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/nginx.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/nginx.key'
+** NOTE: restart services to use the new certificates.
+** Cleaning up 3 files from '/opt/zimbra/conf/ca'
+** Removing /opt/zimbra/conf/ca/ca.key
+** Removing /opt/zimbra/conf/ca/ca.pem
+** Removing /opt/zimbra/conf/ca/d68c1b1a.0
+** Copying CA to /opt/zimbra/conf/ca
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.key' to '/opt/zimbra/conf/ca/ca.key'
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.pem' to '/opt/zimbra/conf/ca/ca.pem'
+** Creating CA hash symlink 'd68c1b1a.0' -> 'ca.pem'
+Tue Nov  2 05:48:54 2021 done.
+Tue Nov  2 05:48:55 2021 Installing MTA SSL certificates...
+Tue Nov  2 05:48:55 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr deploycrt self
+** Installing imapd certificate '/opt/zimbra/conf/imapd.crt' and key '/opt/zimbra/conf/imapd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/imapd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/imapd.key'
+** Creating file '/opt/zimbra/ssl/zimbra/jetty.pkcs12'
+** Creating keystore '/opt/zimbra/conf/imapd.keystore'
+** Installing ldap certificate '/opt/zimbra/conf/slapd.crt' and key '/opt/zimbra/conf/slapd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/slapd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/slapd.key'
+** Creating file '/opt/zimbra/ssl/zimbra/jetty.pkcs12'
+** Creating keystore '/opt/zimbra/mailboxd/etc/keystore'
+** Installing mta certificate '/opt/zimbra/conf/smtpd.crt' and key '/opt/zimbra/conf/smtpd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/smtpd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/smtpd.key'
+** Installing proxy certificate '/opt/zimbra/conf/nginx.crt' and key '/opt/zimbra/conf/nginx.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/nginx.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/nginx.key'
+** NOTE: restart services to use the new certificates.
+** Cleaning up 3 files from '/opt/zimbra/conf/ca'
+** Removing /opt/zimbra/conf/ca/ca.key
+** Removing /opt/zimbra/conf/ca/ca.pem
+** Removing /opt/zimbra/conf/ca/d68c1b1a.0
+** Copying CA to /opt/zimbra/conf/ca
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.key' to '/opt/zimbra/conf/ca/ca.key'
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.pem' to '/opt/zimbra/conf/ca/ca.pem'
+** Creating CA hash symlink 'd68c1b1a.0' -> 'ca.pem'
+Tue Nov  2 05:48:58 2021 done.
+Tue Nov  2 05:48:58 2021 Installing LDAP SSL certificate...
+Tue Nov  2 05:48:58 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr deploycrt self
+** Installing imapd certificate '/opt/zimbra/conf/imapd.crt' and key '/opt/zimbra/conf/imapd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/imapd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/imapd.key'
+** Creating file '/opt/zimbra/ssl/zimbra/jetty.pkcs12'
+** Creating keystore '/opt/zimbra/conf/imapd.keystore'
+** Installing ldap certificate '/opt/zimbra/conf/slapd.crt' and key '/opt/zimbra/conf/slapd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/slapd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/slapd.key'
+** Creating file '/opt/zimbra/ssl/zimbra/jetty.pkcs12'
+** Creating keystore '/opt/zimbra/mailboxd/etc/keystore'
+** Installing mta certificate '/opt/zimbra/conf/smtpd.crt' and key '/opt/zimbra/conf/smtpd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/smtpd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/smtpd.key'
+** Installing proxy certificate '/opt/zimbra/conf/nginx.crt' and key '/opt/zimbra/conf/nginx.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/nginx.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/nginx.key'
+** NOTE: restart services to use the new certificates.
+** Cleaning up 3 files from '/opt/zimbra/conf/ca'
+** Removing /opt/zimbra/conf/ca/ca.key
+** Removing /opt/zimbra/conf/ca/ca.pem
+** Removing /opt/zimbra/conf/ca/d68c1b1a.0
+** Copying CA to /opt/zimbra/conf/ca
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.key' to '/opt/zimbra/conf/ca/ca.key'
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.pem' to '/opt/zimbra/conf/ca/ca.pem'
+** Creating CA hash symlink 'd68c1b1a.0' -> 'ca.pem'
+Tue Nov  2 05:49:01 2021 done.
+Tue Nov  2 05:49:01 2021 Installing Proxy SSL certificate...
+Tue Nov  2 05:49:01 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr deploycrt self
+** Installing imapd certificate '/opt/zimbra/conf/imapd.crt' and key '/opt/zimbra/conf/imapd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/imapd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/imapd.key'
+** Creating file '/opt/zimbra/ssl/zimbra/jetty.pkcs12'
+** Creating keystore '/opt/zimbra/conf/imapd.keystore'
+** Installing ldap certificate '/opt/zimbra/conf/slapd.crt' and key '/opt/zimbra/conf/slapd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/slapd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/slapd.key'
+** Creating file '/opt/zimbra/ssl/zimbra/jetty.pkcs12'
+** Creating keystore '/opt/zimbra/mailboxd/etc/keystore'
+** Installing mta certificate '/opt/zimbra/conf/smtpd.crt' and key '/opt/zimbra/conf/smtpd.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/smtpd.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/smtpd.key'
+** Installing proxy certificate '/opt/zimbra/conf/nginx.crt' and key '/opt/zimbra/conf/nginx.key'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.crt' to '/opt/zimbra/conf/nginx.crt'
+** Copying '/opt/zimbra/ssl/zimbra/server/server.key' to '/opt/zimbra/conf/nginx.key'
+** NOTE: restart services to use the new certificates.
+** Cleaning up 3 files from '/opt/zimbra/conf/ca'
+** Removing /opt/zimbra/conf/ca/ca.key
+** Removing /opt/zimbra/conf/ca/ca.pem
+** Removing /opt/zimbra/conf/ca/d68c1b1a.0
+** Copying CA to /opt/zimbra/conf/ca
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.key' to '/opt/zimbra/conf/ca/ca.key'
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.pem' to '/opt/zimbra/conf/ca/ca.pem'
+** Creating CA hash symlink 'd68c1b1a.0' -> 'ca.pem'
+Tue Nov  2 05:49:04 2021 done.
+Tue Nov  2 05:49:04 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:49:04 2021 zimbra-ldap is enabled
+Tue Nov  2 05:49:04 2021 Initializing ldap...
+Tue Nov  2 05:49:04 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmldapinit
+Tue Nov  2 05:49:16 2021 done.
+Tue Nov  2 05:49:16 2021 Setting replication password...
+Tue Nov  2 05:49:16 2021 *** Running as zimbra user: /opt/zimbra/bin/zmldappasswd
+Updating local config and LDAP
+Tue Nov  2 05:49:21 2021 done.
+Tue Nov  2 05:49:21 2021 Setting Postfix password...
+Tue Nov  2 05:49:21 2021 *** Running as zimbra user: /opt/zimbra/bin/zmldappasswd
+Updating local config and LDAP
+Tue Nov  2 05:49:25 2021 done.
+Tue Nov  2 05:49:25 2021 Setting amavis password...
+Tue Nov  2 05:49:25 2021 *** Running as zimbra user: /opt/zimbra/bin/zmldappasswd
+Updating local config and LDAP
+Tue Nov  2 05:49:31 2021 done.
+Tue Nov  2 05:49:31 2021 Setting nginx password...
+Tue Nov  2 05:49:31 2021 *** Running as zimbra user: /opt/zimbra/bin/zmldappasswd
+Updating local config and LDAP
+Tue Nov  2 05:49:35 2021 done.
+Tue Nov  2 05:49:35 2021 Setting BES searcher password...
+Tue Nov  2 05:49:35 2021 *** Running as zimbra user: /opt/zimbra/bin/zmldappasswd
+Updating local config and LDAP
+Tue Nov  2 05:49:41 2021 done.
+Tue Nov  2 05:49:41 2021 Creating server entry for mail.nhk.com...
+Tue Nov  2 05:49:44 2021 ERROR: account.NO_SUCH_SERVER (no such server: mail.nhk.com)
+Tue Nov  2 05:49:44 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l cs mail.nhk.com
+44f7fe07-58fe-4a77-a7c5-67eeb5d984c1
+Tue Nov  2 05:49:48 2021 done.
+Tue Nov  2 05:49:48 2021 Setting Zimbra IP Mode...
+Tue Nov  2 05:49:48 2021 Updating cached config attribute for Server mail.nhk.com: zimbraIPMode=ipv4
+Tue Nov  2 05:49:48 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraIPMode 'ipv4'
+Tue Nov  2 05:49:52 2021 done.
+Tue Nov  2 05:49:52 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmiptool >/dev/null 2>/dev/null
+Tue Nov  2 05:50:03 2021 Saving CA in ldap...
+Tue Nov  2 05:50:03 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr deployca
+** Saving config key 'zimbraCertAuthorityCertSelfSigned' via zmprov modifyConfig...ok
+** Saving config key 'zimbraCertAuthorityKeySelfSigned' via zmprov modifyConfig...ok
+** Importing cert '/opt/zimbra/ssl/zimbra/ca/ca.pem' as 'my_ca' into cacerts '/opt/zimbra/common/lib/jvm/java/lib/security/cacerts'
+** NOTE: restart mailboxd to use the imported certificate.
+** Cleaning up 3 files from '/opt/zimbra/conf/ca'
+** Removing /opt/zimbra/conf/ca/ca.key
+** Removing /opt/zimbra/conf/ca/ca.pem
+** Removing /opt/zimbra/conf/ca/d68c1b1a.0
+** Copying CA to /opt/zimbra/conf/ca
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.key' to '/opt/zimbra/conf/ca/ca.key'
+** Copying '/opt/zimbra/ssl/zimbra/ca/ca.pem' to '/opt/zimbra/conf/ca/ca.pem'
+** Creating CA hash symlink 'd68c1b1a.0' -> 'ca.pem'
+Tue Nov  2 05:50:13 2021 done.
+Tue Nov  2 05:50:13 2021 Saving SSL Certificate in ldap...
+Tue Nov  2 05:50:13 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcertmgr savecrt self
+** Saving config key 'zimbraSSLCertificate' via zmprov modifyServer mail.nhk.com...ok
+** Saving config key 'zimbraSSLPrivateKey' via zmprov modifyServer mail.nhk.com...ok
+Tue Nov  2 05:50:22 2021 done.
+Tue Nov  2 05:50:22 2021 entering function: gcf zimbraSSLDHParam=/opt/zimbra/conf/dhparam.pem.zcs
+Tue Nov  2 05:50:22 2021 Updating cached global config attribute zimbraSSLDHParam=/opt/zimbra/conf/dhparam.pem.zcs
+Tue Nov  2 05:50:22 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraSSLDHParam '/opt/zimbra/conf/dhparam.pem.zcs'
+Tue Nov  2 05:50:26 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:50:26 2021 zimbra-store is enabled
+Tue Nov  2 05:50:26 2021 Setting spell check URL...
+Tue Nov  2 05:50:26 2021 Updating cached config attribute for Server mail.nhk.com: zimbraSpellCheckURL=http://mail.nhk.com:7780/aspell.php
+Tue Nov  2 05:50:26 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraSpellCheckURL 'http://mail.nhk.com:7780/aspell.php'
+Tue Nov  2 05:50:29 2021 done.
+Tue Nov  2 05:50:29 2021 Setting service ports on mail.nhk.com...
+Tue Nov  2 05:50:29 2021 Updating cached config attribute for Server mail.nhk.com: zimbraImapBindPort=7143
+Tue Nov  2 05:50:29 2021 Updating cached config attribute for Server mail.nhk.com: zimbraImapSSLBindPort=7993
+Tue Nov  2 05:50:29 2021 Updating cached config attribute for Server mail.nhk.com: zimbraImapProxyBindPort=143
+Tue Nov  2 05:50:29 2021 Updating cached config attribute for Server mail.nhk.com: zimbraImapSSLProxyBindPort=993
+Tue Nov  2 05:50:29 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraImapBindPort '7143' zimbraImapSSLBindPort '7993' zimbraImapProxyBindPort '143' zimbraImapSSLProxyBindPort '993'
+Tue Nov  2 05:50:33 2021 Updating cached config attribute for Server mail.nhk.com: zimbraPop3BindPort=7110
+Tue Nov  2 05:50:33 2021 Updating cached config attribute for Server mail.nhk.com: zimbraPop3SSLBindPort=7995
+Tue Nov  2 05:50:33 2021 Updating cached config attribute for Server mail.nhk.com: zimbraPop3ProxyBindPort=110
+Tue Nov  2 05:50:33 2021 Updating cached config attribute for Server mail.nhk.com: zimbraPop3SSLProxyBindPort=995
+Tue Nov  2 05:50:33 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraPop3BindPort '7110' zimbraPop3SSLBindPort '7995' zimbraPop3ProxyBindPort '110' zimbraPop3SSLProxyBindPort '995'
+Tue Nov  2 05:50:37 2021 Updating cached config attribute for Server mail.nhk.com: zimbraMailPort=8080
+Tue Nov  2 05:50:37 2021 Updating cached config attribute for Server mail.nhk.com: zimbraMailSSLPort=8443
+Tue Nov  2 05:50:37 2021 Updating cached config attribute for Server mail.nhk.com: zimbraMailProxyPort=80
+Tue Nov  2 05:50:37 2021 Updating cached config attribute for Server mail.nhk.com: zimbraMailSSLProxyPort=443
+Tue Nov  2 05:50:37 2021 Updating cached config attribute for Server mail.nhk.com: zimbraMailMode=https
+Tue Nov  2 05:50:37 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraMailPort '8080' zimbraMailSSLPort '8443' zimbraMailProxyPort '80' zimbraMailSSLProxyPort '443' zimbraMailMode 'https'
+Tue Nov  2 05:50:41 2021 Setting local config zimbra_mail_service_port to 8080
+Tue Nov  2 05:50:41 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zimbra_mail_service_port='8080' 2> /dev/null
+Tue Nov  2 05:50:42 2021 done.
+Tue Nov  2 05:50:42 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:50:42 2021 zimbra-store is enabled
+Tue Nov  2 05:50:42 2021 Setting zimbraFeatureTasksEnabled=TRUE...
+Tue Nov  2 05:50:42 2021 Updating cached config attribute for COS default: zimbraFeatureTasksEnabled=TRUE
+Tue Nov  2 05:50:42 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  zimbraFeatureTasksEnabled 'TRUE'
+Tue Nov  2 05:50:46 2021 done.
+Tue Nov  2 05:50:46 2021 Setting zimbraFeatureBriefcasesEnabled=TRUE...
+Tue Nov  2 05:50:46 2021 Updating cached config attribute for COS default: zimbraFeatureBriefcasesEnabled=TRUE
+Tue Nov  2 05:50:46 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  zimbraFeatureBriefcasesEnabled 'TRUE'
+Tue Nov  2 05:50:50 2021 done.
+Tue Nov  2 05:50:50 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:50:50 2021 zimbra-proxy is enabled
+Tue Nov  2 05:50:50 2021 Checking current setting of zimbraReverseProxyAvailableLookupTargets
+Tue Nov  2 05:50:54 2021 Returning retrieved global config attribute zimbraReverseProxyAvailableLookupTargets=
+Tue Nov  2 05:50:54 2021 Querying LDAP for other mailstores
+Tue Nov  2 05:50:54 2021 Getting local config zimbra_ldap_password
+Tue Nov  2 05:50:55 2021 ldap bind done for uid=zimbra,cn=admins,cn=zimbra
+Tue Nov  2 05:50:55 2021 Searching LDAP for reverseProxyLookupTargets...
+Tue Nov  2 05:50:55 2021 done.
+Tue Nov  2 05:50:55 2021 Adding mail.nhk.com to zimbraReverseProxyAvailableLookupTargets
+Tue Nov  2 05:50:55 2021 entering function: gcf +zimbraReverseProxyAvailableLookupTargets=mail.nhk.com
+Tue Nov  2 05:50:55 2021 Updating cached global config attribute +zimbraReverseProxyAvailableLookupTargets=mail.nhk.com
+Tue Nov  2 05:50:55 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  +zimbraReverseProxyAvailableLookupTargets 'mail.nhk.com'
+Tue Nov  2 05:50:59 2021 entering function: gcf +zimbraReverseProxyUpstreamLoginServers=mail.nhk.com
+Tue Nov  2 05:50:59 2021 Updating cached global config attribute +zimbraReverseProxyUpstreamLoginServers=mail.nhk.com
+Tue Nov  2 05:50:59 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  +zimbraReverseProxyUpstreamLoginServers 'mail.nhk.com'
+Tue Nov  2 05:51:04 2021 Updating cached config attribute for Server mail.nhk.com: zimbraReverseProxyLookupTarget=TRUE
+Tue Nov  2 05:51:04 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraReverseProxyLookupTarget 'TRUE'
+Tue Nov  2 05:51:08 2021 Updating cached config attribute for Server mail.nhk.com: zimbraMtaAuthTarget=TRUE
+Tue Nov  2 05:51:08 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraMtaAuthTarget 'TRUE'
+Tue Nov  2 05:51:12 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmproxyconfig -U -m -e -o -i 7143:143:7993:993 -p 7110:110:7995:995 -H mail.nhk.com
+Tue Nov  2 05:51:22 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmproxyconfig -U -w -e -o -a 8080:80:8443:443 -H mail.nhk.com
+Tue Nov  2 05:51:41 2021 Returning retrieved server config attribute for mail.nhk.com: zimbraId=44f7fe07-58fe-4a77-a7c5-67eeb5d984c1
+Tue Nov  2 05:51:41 2021 entering function: gcf zimbraVersionCheckServer=44f7fe07-58fe-4a77-a7c5-67eeb5d984c1
+Tue Nov  2 05:51:41 2021 Updating cached global config attribute zimbraVersionCheckServer=44f7fe07-58fe-4a77-a7c5-67eeb5d984c1
+Tue Nov  2 05:51:41 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraVersionCheckServer '44f7fe07-58fe-4a77-a7c5-67eeb5d984c1'
+Tue Nov  2 05:51:44 2021 entering function: gcf zimbraVersionCheckSendNotifications=TRUE
+Tue Nov  2 05:51:44 2021 Updating cached global config attribute zimbraVersionCheckSendNotifications=TRUE
+Tue Nov  2 05:51:44 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraVersionCheckSendNotifications 'TRUE'
+Tue Nov  2 05:51:48 2021 entering function: gcf zimbraVersionCheckNotificationEmail=admin@mail.nhk.com
+Tue Nov  2 05:51:48 2021 Updating cached global config attribute zimbraVersionCheckNotificationEmail=admin@mail.nhk.com
+Tue Nov  2 05:51:48 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraVersionCheckNotificationEmail 'admin@mail.nhk.com'
+Tue Nov  2 05:51:52 2021 entering function: gcf zimbraVersionCheckNotificationEmailFrom=admin@mail.nhk.com
+Tue Nov  2 05:51:52 2021 Updating cached global config attribute zimbraVersionCheckNotificationEmailFrom=admin@mail.nhk.com
+Tue Nov  2 05:51:52 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraVersionCheckNotificationEmailFrom 'admin@mail.nhk.com'
+Tue Nov  2 05:51:57 2021 checking isEnabled zimbra-dnscache
+Tue Nov  2 05:51:57 2021 zimbra-dnscache is enabled
+Tue Nov  2 05:51:57 2021 Setting Master DNS IP address(es)...
+Tue Nov  2 05:51:57 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com +zimbraDNSMasterIP 123.23.23.23
+Tue Nov  2 05:52:00 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com +zimbraDNSMasterIP 123.26.26.26
+Tue Nov  2 05:52:05 2021 done.
+Tue Nov  2 05:52:05 2021 Setting DNS cache tcp lookup preference...
+Tue Nov  2 05:52:05 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com zimbraDNSUseTCP yes
+Tue Nov  2 05:52:08 2021 done.
+Tue Nov  2 05:52:08 2021 Setting DNS cache udp lookup preference...
+Tue Nov  2 05:52:08 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com zimbraDNSUseUDP yes
+Tue Nov  2 05:52:14 2021 done.
+Tue Nov  2 05:52:14 2021 Setting DNS tcp upstream preference...
+Tue Nov  2 05:52:14 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com zimbraDNSTCPUpstream no
+Tue Nov  2 05:52:18 2021 done.
+Tue Nov  2 05:52:18 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:52:18 2021 zimbra-ldap is enabled
+Tue Nov  2 05:52:18 2021 Updating zimbraLDAPSchemaVersion to version '1592988252'
+Tue Nov  2 05:52:18 2021 entering function: gcf zimbraLDAPSchemaVersion=1592988252
+Tue Nov  2 05:52:18 2021 Updating cached global config attribute zimbraLDAPSchemaVersion=1592988252
+Tue Nov  2 05:52:18 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraLDAPSchemaVersion '1592988252'
+Tue Nov  2 05:52:22 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:52:22 2021 zimbra-ldap is enabled
+Tue Nov  2 05:52:22 2021 Setting TimeZone Preference...
+Tue Nov  2 05:52:22 2021 Updating cached config attribute for COS default: zimbraPrefTimeZoneId=America/Grand_Turk
+Tue Nov  2 05:52:22 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  zimbraPrefTimeZoneId 'America/Grand_Turk'
+Tue Nov  2 05:52:26 2021 done.
+Tue Nov  2 05:52:26 2021 entering function: gcf zimbraSkinLogoURL=http://www.zimbra.com
+Tue Nov  2 05:52:26 2021 Updating cached global config attribute zimbraSkinLogoURL=http://www.zimbra.com
+Tue Nov  2 05:52:26 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraSkinLogoURL 'http://www.zimbra.com'
+Tue Nov  2 05:52:29 2021 checking isEnabled zimbra-proxy
+Tue Nov  2 05:52:29 2021 zimbra-proxy is enabled
+Tue Nov  2 05:52:29 2021 Disabling strict server name enforcement on mail.nhk.com...
+Tue Nov  2 05:52:29 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com zimbraReverseProxyStrictServerNameEnabled FALSE
+Tue Nov  2 05:52:33 2021 done.
+Tue Nov  2 05:52:33 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmproxyconfig -U -m -e -o -i 7143:143:7993:993 -p 7110:110:7995:995 -H mail.nhk.com
+Tue Nov  2 05:52:44 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmproxyconfig -U -w -e -o  -x https -a 8080:80:8443:443 -H mail.nhk.com
+Tue Nov  2 05:52:58 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:52:58 2021 zimbra-store is enabled
+Tue Nov  2 05:52:58 2021 checking isEnabled zimbra-memcached
+Tue Nov  2 05:52:58 2021 zimbra-memcached is enabled
+Tue Nov  2 05:52:58 2021 checking isEnabled zimbra-mta
+Tue Nov  2 05:52:58 2021 zimbra-mta is enabled
+Tue Nov  2 05:52:58 2021 Initializing mta config...
+Tue Nov  2 05:52:58 2021 Setting local config postfix_mail_owner to postfix
+Tue Nov  2 05:52:58 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e postfix_mail_owner='postfix' 2> /dev/null
+Tue Nov  2 05:52:59 2021 Setting local config postfix_setgid_group to postdrop
+Tue Nov  2 05:52:59 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e postfix_setgid_group='postdrop' 2> /dev/null
+Tue Nov  2 05:53:00 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmmtainit
+Tue Nov  2 05:53:01 2021 done.
+Tue Nov  2 05:53:01 2021 Updating cached config attribute for Server mail.nhk.com: zimbraMtaMyNetworks=127.0.0.0/8 [::1]/128 192.168.1.0/24 [2001:ee0:4081:939a::]/64
+Tue Nov  2 05:53:01 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraMtaMyNetworks '127.0.0.0/8 [::1]/128 192.168.1.0/24 [2001:ee0:4081:939a::]/64'
+Tue Nov  2 05:53:05 2021 Setting services on mail.nhk.com...
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=amavis
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=antivirus
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=antispam
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=opendkim
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=logger
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=mailbox
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=memcached
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=mta
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=dnscache
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=stats
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=proxy
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=snmp
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=spell
+Tue Nov  2 05:53:05 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceInstalled=ldap
+Tue Nov  2 05:53:05 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraServiceInstalled 'amavis' zimbraServiceInstalled 'antivirus' zimbraServiceInstalled 'antispam' zimbraServiceInstalled 'opendkim' zimbraServiceInstalled 'logger' zimbraServiceInstalled 'mailbox' zimbraServiceInstalled 'memcached' zimbraServiceInstalled 'mta' zimbraServiceInstalled 'dnscache' zimbraServiceInstalled 'stats' zimbraServiceInstalled 'proxy' zimbraServiceInstalled 'snmp' zimbraServiceInstalled 'spell' zimbraServiceInstalled 'ldap'
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=amavis
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=antivirus
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=antispam
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=opendkim
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=logger
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=service
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=zimbra
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=zimbraAdmin
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=zimlet
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=mailbox
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=memcached
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=mta
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=dnscache
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=stats
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=proxy
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=snmp
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=spell
+Tue Nov  2 05:53:09 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServiceEnabled=ldap
+Tue Nov  2 05:53:09 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraServiceEnabled 'amavis' zimbraServiceEnabled 'antivirus' zimbraServiceEnabled 'antispam' zimbraServiceEnabled 'opendkim' zimbraServiceEnabled 'logger' zimbraServiceEnabled 'service' zimbraServiceEnabled 'zimbra' zimbraServiceEnabled 'zimbraAdmin' zimbraServiceEnabled 'zimlet' zimbraServiceEnabled 'mailbox' zimbraServiceEnabled 'memcached' zimbraServiceEnabled 'mta' zimbraServiceEnabled 'dnscache' zimbraServiceEnabled 'stats' zimbraServiceEnabled 'proxy' zimbraServiceEnabled 'snmp' zimbraServiceEnabled 'spell' zimbraServiceEnabled 'ldap'
+Tue Nov  2 05:53:13 2021 done.
+Tue Nov  2 05:53:13 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmiptool >/dev/null 2>/dev/null
+Tue Nov  2 05:53:28 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:53:28 2021 zimbra-store is enabled
+Tue Nov  2 05:53:28 2021 Adding mail.nhk.com to zimbraMailHostPool in default COS...
+Tue Nov  2 05:53:28 2021 Returning cached server config attribute for mail.nhk.com: zimbraId=44f7fe07-58fe-4a77-a7c5-67eeb5d984c1
+Tue Nov  2 05:53:32 2021 Returning retrieved cos config attribute for default: zimbraMailHostPool=
+Tue Nov  2 05:53:32 2021 Updating cached config attribute for COS default: zimbraMailHostPool=44f7fe07-58fe-4a77-a7c5-67eeb5d984c1
+Tue Nov  2 05:53:32 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  zimbraMailHostPool '44f7fe07-58fe-4a77-a7c5-67eeb5d984c1'
+Tue Nov  2 05:53:36 2021 done.
+Tue Nov  2 05:53:36 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:53:36 2021 zimbra-ldap is enabled
+Tue Nov  2 05:53:36 2021 Creating domain mail.nhk.com...
+Tue Nov  2 05:53:36 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l cd mail.nhk.com
+929fe8fd-6720-4ab3-9e6c-bd35149af7e1
+Tue Nov  2 05:53:41 2021 done.
+Tue Nov  2 05:53:41 2021 Setting default domain name...
+Tue Nov  2 05:53:41 2021 entering function: gcf zimbraDefaultDomainName=mail.nhk.com
+Tue Nov  2 05:53:41 2021 Updating cached global config attribute zimbraDefaultDomainName=mail.nhk.com
+Tue Nov  2 05:53:41 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraDefaultDomainName 'mail.nhk.com'
+Tue Nov  2 05:53:46 2021 done.
+Tue Nov  2 05:53:46 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:53:46 2021 zimbra-store is enabled
+Tue Nov  2 05:53:46 2021 Creating domain mail.nhk.com...
+Tue Nov  2 05:53:50 2021 Returning retrieved domain config attribute for mail.nhk.com: zimbraId=929fe8fd-6720-4ab3-9e6c-bd35149af7e1
+Tue Nov  2 05:53:50 2021 already exists.
+Tue Nov  2 05:53:50 2021 Creating admin account admin@mail.nhk.com...
+Tue Nov  2 05:53:54 2021 ERROR: account.NO_SUCH_ACCOUNT (no such account: admin@mail.nhk.com)
+Tue Nov  2 05:53:54 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov
+190bbac2-c741-4ca8-9593-77c2cc97754e
+Tue Nov  2 05:53:58 2021 done.
+Tue Nov  2 05:53:58 2021 Creating root alias...
+Tue Nov  2 05:53:58 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l aaa admin@mail.nhk.com root@mail.nhk.com
+Tue Nov  2 05:54:03 2021 done.
+Tue Nov  2 05:54:03 2021 Creating postmaster alias...
+Tue Nov  2 05:54:03 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l aaa admin@mail.nhk.com postmaster@mail.nhk.com
+Tue Nov  2 05:54:09 2021 done.
+Tue Nov  2 05:54:09 2021 Creating user spam._lhluwad8@mail.nhk.com...
+Tue Nov  2 05:54:14 2021 ERROR: account.NO_SUCH_ACCOUNT (no such account: spam._lhluwad8@mail.nhk.com)
+Tue Nov  2 05:54:16 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov
+67e11fce-6cde-4dad-81a3-66c9dc81d9b9
+Tue Nov  2 05:54:20 2021 done.
+Tue Nov  2 05:54:20 2021 Creating user ham.rouvbzgqa@mail.nhk.com...
+Tue Nov  2 05:54:25 2021 ERROR: account.NO_SUCH_ACCOUNT (no such account: ham.rouvbzgqa@mail.nhk.com)
+Tue Nov  2 05:54:26 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov
+3e7b6d37-d742-41ee-8806-cd099bc449e8
+Tue Nov  2 05:54:30 2021 done.
+Tue Nov  2 05:54:30 2021 Creating user virus-quarantine.yuxwvozka@mail.nhk.com...
+Tue Nov  2 05:54:34 2021 ERROR: account.NO_SUCH_ACCOUNT (no such account: virus-quarantine.yuxwvozka@mail.nhk.com)
+Tue Nov  2 05:54:35 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov
+5ae55fe0-4cac-4e6c-82ae-3177b0027721
+Tue Nov  2 05:54:40 2021 done.
+Tue Nov  2 05:54:40 2021 Setting spam training and Anti-virus quarantine accounts...
+Tue Nov  2 05:54:40 2021 entering function: gcf zimbraSpamIsSpamAccount=spam._lhluwad8@mail.nhk.com
+Tue Nov  2 05:54:40 2021 Updating cached global config attribute zimbraSpamIsSpamAccount=spam._lhluwad8@mail.nhk.com
+Tue Nov  2 05:54:40 2021 entering function: gcf zimbraSpamIsNotSpamAccount=ham.rouvbzgqa@mail.nhk.com
+Tue Nov  2 05:54:40 2021 Updating cached global config attribute zimbraSpamIsNotSpamAccount=ham.rouvbzgqa@mail.nhk.com
+Tue Nov  2 05:54:40 2021 entering function: gcf zimbraAmavisQuarantineAccount=virus-quarantine.yuxwvozka@mail.nhk.com
+Tue Nov  2 05:54:40 2021 Updating cached global config attribute zimbraAmavisQuarantineAccount=virus-quarantine.yuxwvozka@mail.nhk.com
+Tue Nov  2 05:54:40 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraSpamIsSpamAccount 'spam._lhluwad8@mail.nhk.com' zimbraSpamIsNotSpamAccount 'ham.rouvbzgqa@mail.nhk.com' zimbraAmavisQuarantineAccount 'virus-quarantine.yuxwvozka@mail.nhk.com'
+Tue Nov  2 05:54:44 2021 done.
+Tue Nov  2 05:54:44 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:54:44 2021 zimbra-store is enabled
+Tue Nov  2 05:54:44 2021 Initializing store sql database...
+Tue Nov  2 05:54:44 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmmyinit
+* Creating required directories
+* Generating mysql config /opt/zimbra/conf/my.cnf
+* Creating database in /opt/zimbra/db/data
+* Starting mysql server
+* Loading schema /opt/zimbra/db/db.sql
+* Loading version from /opt/zimbra/db/versions-init.sql
+* Setting random passwd for mysql root user in zimbra localconfig
+* Setting random passwd for mysql zimbra user in zimbra localconfig
+* Changing mysql root user password
+* Changing mysql zimbra user password
+* Changed zimbra mysql user password
+Tue Nov  2 05:55:06 2021 done.
+Tue Nov  2 05:55:06 2021 Setting zimbraSmtpHostname for mail.nhk.com...
+Tue Nov  2 05:55:06 2021 Updating cached config attribute for Server mail.nhk.com: +zimbraSmtpHostname=mail.nhk.com
+Tue Nov  2 05:55:06 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  +zimbraSmtpHostname 'mail.nhk.com'
+Tue Nov  2 05:55:11 2021 done.
+Tue Nov  2 05:55:11 2021 checking isEnabled zimbra-logger
+Tue Nov  2 05:55:11 2021 zimbra-logger is enabled
+Tue Nov  2 05:55:11 2021 entering function: gcf zimbraLogHostname=mail.nhk.com
+Tue Nov  2 05:55:11 2021 Updating cached global config attribute zimbraLogHostname=mail.nhk.com
+Tue Nov  2 05:55:11 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf  zimbraLogHostname 'mail.nhk.com'
+Tue Nov  2 05:55:15 2021 Setting local config smtp_source to admin@mail.nhk.com
+Tue Nov  2 05:55:15 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e smtp_source='admin@mail.nhk.com' 2> /dev/null
+Tue Nov  2 05:55:16 2021 Setting local config smtp_destination to admin@mail.nhk.com
+Tue Nov  2 05:55:16 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e smtp_destination='admin@mail.nhk.com' 2> /dev/null
+Tue Nov  2 05:55:17 2021 checking isEnabled zimbra-snmp
+Tue Nov  2 05:55:17 2021 zimbra-snmp is enabled
+Tue Nov  2 05:55:17 2021 Configuring SNMP...
+Tue Nov  2 05:55:17 2021 Setting local config snmp_notify to yes
+Tue Nov  2 05:55:17 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e snmp_notify='yes' 2> /dev/null
+Tue Nov  2 05:55:18 2021 Setting local config smtp_notify to yes
+Tue Nov  2 05:55:18 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e smtp_notify='yes' 2> /dev/null
+Tue Nov  2 05:55:18 2021 Setting local config snmp_trap_host to mail.nhk.com
+Tue Nov  2 05:55:18 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e snmp_trap_host='mail.nhk.com' 2> /dev/null
+Tue Nov  2 05:55:19 2021 Skipping update of unchanged value for smtp_source=admin@mail.nhk.com.
+Tue Nov  2 05:55:19 2021 Skipping update of unchanged value for smtp_destination=admin@mail.nhk.com.
+Tue Nov  2 05:55:19 2021 *** Running as zimbra user: /opt/zimbra/libexec/zmsnmpinit
+creating /opt/zimbra/conf/snmpd.conf
+creating /opt/zimbra/conf/swatchrc
+Tue Nov  2 05:55:20 2021 done.
+Tue Nov  2 05:55:20 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:55:20 2021 zimbra-ldap is enabled
+Tue Nov  2 05:55:20 2021 Setting up syslog.conf...
+Tue Nov  2 05:55:20 2021 *** Running as root user: /opt/zimbra/libexec/zmsyslogsetup
+updateSyslog: Updating /etc/rsyslog.conf...done.
+Tue Nov  2 05:55:25 2021 done.
+Tue Nov  2 05:55:25 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 05:55:25 2021 zimbra-ldap is enabled
+Tue Nov  2 05:55:25 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mcf zimbraComponentAvailable ''
+Tue Nov  2 05:55:29 2021 *** Running as zimbra user: zmlocalconfig -u trial_expiration_date
+Error: key trial_expiration_date is not set
+Tue Nov  2 05:55:30 2021 Setting local config ssl_allow_untrusted_certs to false
+Tue Nov  2 05:55:30 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e ssl_allow_untrusted_certs='false' 2> /dev/null
+Tue Nov  2 05:55:31 2021 checking isEnabled zimbra-mta
+Tue Nov  2 05:55:31 2021 zimbra-mta is enabled
+Tue Nov  2 05:55:31 2021 Running /opt/zimbra/bin/zmprov -r -m -l gas mta
+Tue Nov  2 05:55:35 2021 Setting local config zmtrainsa_cleanup_host to true
+Tue Nov  2 05:55:35 2021 *** Running as zimbra user: /opt/zimbra/bin/zmlocalconfig -f -e zmtrainsa_cleanup_host='true' 2> /dev/null
+Tue Nov  2 05:55:36 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServerVersion=9.0.0_ZEXTRAS.e41af5bae02dd6e1ee964342d6efb01fdeb09927_202007113
+Tue Nov  2 05:55:36 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraServerVersion '9.0.0_ZEXTRAS.e41af5bae02dd6e1ee964342d6efb01fdeb09927_202007113'
+Tue Nov  2 05:55:40 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServerVersionMajor=9
+Tue Nov  2 05:55:40 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraServerVersionMajor '9'
+Tue Nov  2 05:55:44 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServerVersionMinor=0
+Tue Nov  2 05:55:44 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraServerVersionMinor '0'
+Tue Nov  2 05:55:48 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServerVersionMicro=0
+Tue Nov  2 05:55:48 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraServerVersionMicro '0'
+Tue Nov  2 05:55:52 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServerVersionType=ZEXTRAS.e41af5bae02dd6e1ee964342d6efb01fdeb09927
+Tue Nov  2 05:55:52 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraServerVersionType 'ZEXTRAS.e41af5bae02dd6e1ee964342d6efb01fdeb09927'
+Tue Nov  2 05:55:57 2021 Updating cached config attribute for Server mail.nhk.com: zimbraServerVersionBuild=202007113
+Tue Nov  2 05:55:57 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraServerVersionBuild '202007113'
+Tue Nov  2 05:56:01 2021 checking isEnabled zimbra-imapd
+Tue Nov  2 05:56:01 2021 zimbra-imapd is not enabled
+Tue Nov  2 05:56:01 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:56:01 2021 zimbra-store is enabled
+Tue Nov  2 05:56:01 2021 Updating cached config attribute for Server mail.nhk.com: zimbraNetworkModulesNGEnabled=FALSE
+Tue Nov  2 05:56:01 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l ms mail.nhk.com  zimbraNetworkModulesNGEnabled 'FALSE'
+Tue Nov  2 05:56:06 2021 Starting servers...
+Tue Nov  2 05:56:06 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcontrol stop
+Host mail.nhk.com
+	Stopping zmconfigd...Done.
+	Stopping zimlet webapp...Done.
+	Stopping zimbraAdmin webapp...Done.
+	Stopping zimbra webapp...Done.
+	Stopping service webapp...Done.
+	Stopping stats...Done.
+	Stopping mta...Done.
+	Stopping spell...Done.
+	Stopping snmp...Done.
+	Stopping cbpolicyd...Done.
+	Stopping archiving...Done.
+	Stopping opendkim...Done.
+	Stopping amavis...Done.
+	Stopping antivirus...Done.
+	Stopping antispam...Done.
+	Stopping proxy...Done.
+	Stopping memcached...Done.
+	Stopping mailbox...Done.
+	Stopping logger...Done.
+	Stopping dnscache...Done.
+	Stopping ldap...Done.
+Tue Nov  2 05:56:22 2021 *** Running as zimbra user: /opt/zimbra/bin/zmcontrol start
+Host mail.nhk.com
+	Starting ldap...Done.
+	Starting zmconfigd...Done.
+	Starting dnscache...Done.
+	Starting logger...Done.
+	Starting mailbox...Done.
+	Starting memcached...Done.
+	Starting proxy...Done.
+	Starting amavis...Done.
+	Starting antispam...Done.
+	Starting antivirus...Done.
+	Starting opendkim...Done.
+	Starting snmp...Done.
+	Starting spell...Done.
+	Starting mta...Done.
+	Starting stats...Done.
+	Starting service webapp...Done.
+	Starting zimbra webapp...Done.
+	Starting zimbraAdmin webapp...Done.
+	Starting zimlet webapp...Done.
+Tue Nov  2 05:58:31 2021 done.
+Tue Nov  2 05:58:31 2021 checking isEnabled zimbra-store
+Tue Nov  2 05:58:31 2021 zimbra-store is enabled
+Tue Nov  2 05:58:31 2021 Getting local config zimlet_directory
+Tue Nov  2 05:58:33 2021 Getting local config zimlet_properties_directory
+Tue Nov  2 05:58:34 2021 Installing common zimlets...
+Tue Nov  2 05:58:34 2021 	com_zimbra_adminversioncheck...
+Tue Nov  2 05:58:34 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_adminversioncheck.zip
+[] INFO: Deploying Zimlet com_zimbra_adminversioncheck in LDAP.
+[] INFO: Installing Zimlet com_zimbra_adminversioncheck on this host.
+[] INFO: Upgrading Zimlet com_zimbra_adminversioncheck to 5.0.6
+[] INFO: Enabling Zimlet com_zimbra_adminversioncheck
+Tue Nov  2 05:58:43 2021 done.
+Tue Nov  2 05:58:43 2021 	com_zimbra_attachcontacts...
+Tue Nov  2 05:58:43 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_attachcontacts.zip
+[] INFO: Deploying Zimlet com_zimbra_attachcontacts in LDAP.
+[] INFO: Installing Zimlet com_zimbra_attachcontacts on this host.
+[] INFO: Upgrading Zimlet com_zimbra_attachcontacts to 1.1_9.0.0.20200710.032208
+[] INFO: Adding Zimlet com_zimbra_attachcontacts to COS default
+[] INFO: Enabling Zimlet com_zimbra_attachcontacts
+Tue Nov  2 05:58:51 2021 Updating cached config attribute for COS default: +zimbraZimletAvailableZimlets=!com_zimbra_attachcontacts
+Tue Nov  2 05:58:51 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  +zimbraZimletAvailableZimlets '!com_zimbra_attachcontacts'
+Tue Nov  2 05:58:59 2021 done.
+Tue Nov  2 05:58:59 2021 	com_zimbra_attachmail...
+Tue Nov  2 05:58:59 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_attachmail.zip
+[] INFO: Deploying Zimlet com_zimbra_attachmail in LDAP.
+[] INFO: Installing Zimlet com_zimbra_attachmail on this host.
+[] INFO: Upgrading Zimlet com_zimbra_attachmail to 1.2_9.0.0.20200710.032208
+[] INFO: Adding Zimlet com_zimbra_attachmail to COS default
+[] INFO: Enabling Zimlet com_zimbra_attachmail
+Tue Nov  2 05:59:06 2021 Updating cached config attribute for COS default: +zimbraZimletAvailableZimlets=!com_zimbra_attachmail
+Tue Nov  2 05:59:06 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  +zimbraZimletAvailableZimlets '!com_zimbra_attachmail'
+Tue Nov  2 05:59:12 2021 done.
+Tue Nov  2 05:59:12 2021 	com_zimbra_bulkprovision...
+Tue Nov  2 05:59:12 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_bulkprovision.zip
+[] INFO: Deploying Zimlet com_zimbra_bulkprovision in LDAP.
+[] INFO: Installing Zimlet com_zimbra_bulkprovision on this host.
+[] INFO: Upgrading Zimlet com_zimbra_bulkprovision to 8.5.0
+[] INFO: Enabling Zimlet com_zimbra_bulkprovision
+Tue Nov  2 05:59:18 2021 done.
+Tue Nov  2 05:59:18 2021 	com_zimbra_cert_manager...
+Tue Nov  2 05:59:18 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_cert_manager.zip
+[] INFO: Deploying Zimlet com_zimbra_cert_manager in LDAP.
+[] INFO: Installing Zimlet com_zimbra_cert_manager on this host.
+[] INFO: Upgrading Zimlet com_zimbra_cert_manager to 6.0.6
+[] INFO: Enabling Zimlet com_zimbra_cert_manager
+Tue Nov  2 05:59:24 2021 done.
+Tue Nov  2 05:59:24 2021 	com_zimbra_clientuploader...
+Tue Nov  2 05:59:24 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_clientuploader.zip
+[] INFO: Deploying Zimlet com_zimbra_clientuploader in LDAP.
+[] INFO: Installing Zimlet com_zimbra_clientuploader on this host.
+[] INFO: Upgrading Zimlet com_zimbra_clientuploader to 8.0.0
+[] INFO: Enabling Zimlet com_zimbra_clientuploader
+Tue Nov  2 05:59:31 2021 done.
+Tue Nov  2 05:59:31 2021 	com_zimbra_date...
+Tue Nov  2 05:59:31 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_date.zip
+[] INFO: Deploying Zimlet com_zimbra_date in LDAP.
+[] INFO: Installing Zimlet com_zimbra_date on this host.
+[] INFO: Upgrading Zimlet com_zimbra_date to 2.7_9.0.0.20200710.032208
+[] INFO: Adding Zimlet com_zimbra_date to COS default
+[] INFO: Enabling Zimlet com_zimbra_date
+Tue Nov  2 05:59:38 2021 Updating cached config attribute for COS default: +zimbraZimletAvailableZimlets=!com_zimbra_date
+Tue Nov  2 05:59:38 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  +zimbraZimletAvailableZimlets '!com_zimbra_date'
+Tue Nov  2 05:59:44 2021 done.
+Tue Nov  2 05:59:44 2021 	com_zimbra_email...
+Tue Nov  2 05:59:44 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_email.zip
+[] INFO: Deploying Zimlet com_zimbra_email in LDAP.
+[] INFO: Installing Zimlet com_zimbra_email on this host.
+[] INFO: Upgrading Zimlet com_zimbra_email to 11.12_9.0.0.20200710.032208
+[] INFO: Adding Zimlet com_zimbra_email to COS default
+[] INFO: Enabling Zimlet com_zimbra_email
+Tue Nov  2 05:59:48 2021 Updating cached config attribute for COS default: +zimbraZimletAvailableZimlets=!com_zimbra_email
+Tue Nov  2 05:59:48 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  +zimbraZimletAvailableZimlets '!com_zimbra_email'
+Tue Nov  2 05:59:53 2021 done.
+Tue Nov  2 05:59:53 2021 	com_zimbra_mailarchive...
+Tue Nov  2 05:59:53 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_mailarchive.zip
+[] INFO: Deploying Zimlet com_zimbra_mailarchive in LDAP.
+[] INFO: Installing Zimlet com_zimbra_mailarchive on this host.
+[] INFO: Upgrading Zimlet com_zimbra_mailarchive to 0.6_9.0.0.20201103.062358
+[] INFO: Adding Zimlet com_zimbra_mailarchive to COS default
+[] INFO: Enabling Zimlet com_zimbra_mailarchive
+Tue Nov  2 05:59:57 2021 done.
+Tue Nov  2 05:59:57 2021 	com_zimbra_phone...
+Tue Nov  2 05:59:57 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_phone.zip
+[] INFO: Deploying Zimlet com_zimbra_phone in LDAP.
+[] INFO: Installing Zimlet com_zimbra_phone on this host.
+[] INFO: Upgrading Zimlet com_zimbra_phone to 2.7_9.0.0.20201103.062358
+[] INFO: Installing Zimlet config for com_zimbra_phone
+[] INFO: Adding Zimlet com_zimbra_phone to COS default
+[] INFO: Enabling Zimlet com_zimbra_phone
+Tue Nov  2 06:00:03 2021 done.
+Tue Nov  2 06:00:03 2021 	com_zimbra_proxy_config...
+Tue Nov  2 06:00:03 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_proxy_config.zip
+[] INFO: Deploying Zimlet com_zimbra_proxy_config in LDAP.
+[] INFO: Installing Zimlet com_zimbra_proxy_config on this host.
+[] INFO: Upgrading Zimlet com_zimbra_proxy_config to 1.0.0
+[] INFO: Enabling Zimlet com_zimbra_proxy_config
+Tue Nov  2 06:00:10 2021 done.
+Tue Nov  2 06:00:10 2021 	com_zimbra_srchhighlighter...
+Tue Nov  2 06:00:10 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_srchhighlighter.zip
+[] INFO: Deploying Zimlet com_zimbra_srchhighlighter in LDAP.
+[] INFO: Installing Zimlet com_zimbra_srchhighlighter on this host.
+[] INFO: Upgrading Zimlet com_zimbra_srchhighlighter to 0.9_9.0.0.20201103.062358
+[] INFO: Adding Zimlet com_zimbra_srchhighlighter to COS default
+[] INFO: Enabling Zimlet com_zimbra_srchhighlighter
+Tue Nov  2 06:00:16 2021 done.
+Tue Nov  2 06:00:16 2021 	com_zimbra_tooltip...
+Tue Nov  2 06:00:16 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_tooltip.zip
+[] INFO: Deploying Zimlet com_zimbra_tooltip in LDAP.
+[] INFO: Installing Zimlet com_zimbra_tooltip on this host.
+[] INFO: Upgrading Zimlet com_zimbra_tooltip to 7.0
+[] INFO: Enabling Zimlet com_zimbra_tooltip
+Tue Nov  2 06:00:21 2021 done.
+Tue Nov  2 06:00:21 2021 	com_zimbra_url...
+Tue Nov  2 06:00:21 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_url.zip
+[] INFO: Deploying Zimlet com_zimbra_url in LDAP.
+[] INFO: Installing Zimlet com_zimbra_url on this host.
+[] INFO: Upgrading Zimlet com_zimbra_url to 2.5_9.0.0.20200710.032208
+[] INFO: Installing Zimlet config for com_zimbra_url
+[] INFO: Adding Zimlet com_zimbra_url to COS default
+[] INFO: Enabling Zimlet com_zimbra_url
+Tue Nov  2 06:00:26 2021 Updating cached config attribute for COS default: +zimbraZimletAvailableZimlets=!com_zimbra_url
+Tue Nov  2 06:00:26 2021 *** Running as zimbra user: /opt/zimbra/bin/zmprov -r -m -l mc default  +zimbraZimletAvailableZimlets '!com_zimbra_url'
+Tue Nov  2 06:00:31 2021 done.
+Tue Nov  2 06:00:31 2021 	com_zimbra_viewmail...
+Tue Nov  2 06:00:31 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_viewmail.zip
+[] INFO: Deploying Zimlet com_zimbra_viewmail in LDAP.
+[] INFO: Installing Zimlet com_zimbra_viewmail on this host.
+[] INFO: Upgrading Zimlet com_zimbra_viewmail to 8.5.0
+[] INFO: Enabling Zimlet com_zimbra_viewmail
+Tue Nov  2 06:00:38 2021 done.
+Tue Nov  2 06:00:38 2021 	com_zimbra_webex...
+Tue Nov  2 06:00:38 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_webex.zip
+[] INFO: Deploying Zimlet com_zimbra_webex in LDAP.
+[] INFO: Installing Zimlet com_zimbra_webex on this host.
+[] INFO: Upgrading Zimlet com_zimbra_webex to 3.4_9.0.0.20201103.062358
+[] INFO: Installing Zimlet config for com_zimbra_webex
+[] INFO: Adding Zimlet com_zimbra_webex to COS default
+[] INFO: Enabling Zimlet com_zimbra_webex
+Tue Nov  2 06:00:46 2021 done.
+Tue Nov  2 06:00:46 2021 	com_zimbra_ymemoticons...
+Tue Nov  2 06:00:46 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zimbra_ymemoticons.zip
+[] INFO: Deploying Zimlet com_zimbra_ymemoticons in LDAP.
+[] INFO: Installing Zimlet com_zimbra_ymemoticons on this host.
+[] INFO: Upgrading Zimlet com_zimbra_ymemoticons to 2.10_9.0.0.20201103.062358
+[] INFO: Adding Zimlet com_zimbra_ymemoticons to COS default
+[] INFO: Enabling Zimlet com_zimbra_ymemoticons
+Tue Nov  2 06:00:55 2021 done.
+Tue Nov  2 06:00:55 2021 	com_zextras_drive_open...
+Tue Nov  2 06:00:55 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zextras_drive_open.zip
+[] INFO: Deploying Zimlet com_zextras_drive_open in LDAP.
+[] INFO: Installing Zimlet com_zextras_drive_open on this host.
+[] INFO: Upgrading Zimlet com_zextras_drive_open to 2.0.5
+[] INFO: Adding Zimlet com_zextras_drive_open to COS default
+[] INFO: Enabling Zimlet com_zextras_drive_open
+Tue Nov  2 06:01:00 2021 done.
+Tue Nov  2 06:01:00 2021 	com_zextras_chat_open...
+Tue Nov  2 06:01:00 2021 *** Running as zimbra user: /opt/zimbra/bin/zmzimletctl -l deploy zimlets/com_zextras_chat_open.zip
+[] INFO: Deploying Zimlet com_zextras_chat_open in LDAP.
+[] INFO: Installing Zimlet com_zextras_chat_open on this host.
+[] INFO: Upgrading Zimlet com_zextras_chat_open to 13
+[] INFO: Adding Zimlet com_zextras_chat_open to COS default
+[] INFO: Enabling Zimlet com_zextras_chat_open
+Tue Nov  2 06:01:05 2021 done.
+Tue Nov  2 06:01:05 2021 Finished installing common zimlets.
+Tue Nov  2 06:01:05 2021 Restarting mailboxd...
+Tue Nov  2 06:01:05 2021 *** Running as zimbra user: /opt/zimbra/bin/zmmailboxdctl restart
+Stopping mailboxd...done.
+Starting mailboxd...done.
+Tue Nov  2 06:01:58 2021 done.
+Tue Nov  2 06:01:58 2021 checking isEnabled zimbra-store
+Tue Nov  2 06:01:58 2021 zimbra-store is enabled
+Tue Nov  2 06:01:58 2021 Creating galsync account for default domain...
+Tue Nov  2 06:02:01 2021 *** Running as zimbra user: /opt/zimbra/bin/zmgsautil createAccount -a galsync.1ygyh1pa5@mail.nhk.com -n InternalGAL --domain mail.nhk.com -s mail.nhk.com -t zimbra -f _InternalGAL
+galsync.1ygyh1pa5@mail.nhk.com	38feda08-067d-4d2e-9db0-5daa96b2ea3b
+Tue Nov  2 06:02:25 2021 done.
+Tue Nov  2 06:02:32 2021 Notification skipped
+Tue Nov  2 06:02:32 2021 Checking if the NG started running...
+Tue Nov  2 06:02:32 2021 retry 1
+Tue Nov  2 06:02:37 2021 retry 2
+Tue Nov  2 06:02:42 2021 retry 3
+Tue Nov  2 06:02:47 2021 retry 4
+Tue Nov  2 06:02:52 2021 retry 5
+Tue Nov  2 06:02:57 2021 retry 6
+Tue Nov  2 06:03:02 2021 retry 7
+Tue Nov  2 06:03:07 2021 done. 
+Tue Nov  2 06:03:07 2021 Modifying the crontab with default schedule because "/opt/zimbra/bin/zxsuite backup getBackupInfo" valid has value: false 
+Tue Nov  2 06:03:07 2021 Setting up zimbra crontab...
+Tue Nov  2 06:03:07 2021 crontab: Taking a copy of zimbra user crontab file.
+Tue Nov  2 06:03:07 2021 crontab: Looking for ZIMBRASTART in existing crontab entry.
+Tue Nov  2 06:03:07 2021 crontab: Looking for ZIMBRAEND in existing crontab entry.
+Tue Nov  2 06:03:07 2021 crontab: Getting existing backup and custom entries from crontab file.
+Tue Nov  2 06:03:07 2021 crontab: Adding zimbra-core specific crontab entries
+Tue Nov  2 06:03:07 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 06:03:07 2021 zimbra-ldap is enabled
+Tue Nov  2 06:03:07 2021 crontab: Adding zimbra-ldap specific crontab entries
+Tue Nov  2 06:03:07 2021 checking isEnabled zimbra-store
+Tue Nov  2 06:03:07 2021 zimbra-store is enabled
+Tue Nov  2 06:03:07 2021 crontab: Adding zimbra-store specific crontab entries
+Tue Nov  2 06:03:07 2021 checking isEnabled zimbra-logger
+Tue Nov  2 06:03:07 2021 zimbra-logger is enabled
+Tue Nov  2 06:03:07 2021 crontab: Adding zimbra-logger specific crontab entries
+Tue Nov  2 06:03:07 2021 checking isEnabled zimbra-mta
+Tue Nov  2 06:03:07 2021 zimbra-mta is enabled
+Tue Nov  2 06:03:07 2021 crontab: Adding zimbra-mta specific crontab entries
+Tue Nov  2 06:03:07 2021 crontab: adding backup block
+Tue Nov  2 06:03:07 2021 crontab: Adding backup and custom entries to crontab.
+Tue Nov  2 06:03:07 2021 crontab: installing new crontab
+Tue Nov  2 06:03:07 2021 done.
+Tue Nov  2 06:03:07 2021 *** Running as zimbra user: /opt/zimbra/bin/zmsshkeygen
+Generating public/private rsa key pair.
+Your identification has been saved in /opt/zimbra/.ssh/zimbra_identity.
+Your public key has been saved in /opt/zimbra/.ssh/zimbra_identity.pub.
+The key fingerprint is:
+SHA256:LARgkU6NASKVOtBb01BQ6debvVfb1P9yxivqdgEnUEk mail.nhk.com
+The key's randomart image is:
++---[RSA 2048]----+
+|++*O+*o.  oE.    |
+|+.* +.o  . .     |
+|.+ o o.  ..      |
+|o o  .... .o .   |
+| .    ..S  ++   .|
+|       .  o ..  +|
+|             ..++|
+|           ..oo.*|
+|          ooo..=+|
++----[SHA256]-----+
+Tue Nov  2 06:03:13 2021 *** Running as zimbra user: /opt/zimbra/bin/zmupdateauthkeys
+Updating keys for mail.nhk.com
+Fetching key for mail.nhk.com
+Updating keys for mail.nhk.com
+Updating /opt/zimbra/.ssh/authorized_keys
+Tue Nov  2 06:03:23 2021 checking isEnabled zimbra-ldap
+Tue Nov  2 06:03:23 2021 zimbra-ldap is enabled
+Tue Nov  2 06:03:24 2021 checking isEnabled zimbra-store
+Tue Nov  2 06:03:24 2021 zimbra-store is enabled
+Tue Nov  2 06:03:25 2021 checking isEnabled zimbra-logger
+Tue Nov  2 06:03:25 2021 zimbra-logger is enabled
+Tue Nov  2 06:03:25 2021 checking isEnabled zimbra-mta
+Tue Nov  2 06:03:25 2021 zimbra-mta is enabled
+Tue Nov  2 06:03:25 2021 
+
+Tue Nov  2 06:03:25 2021 Moving /tmp/zmsetup.20211102-054547.log to /opt/zimbra/log

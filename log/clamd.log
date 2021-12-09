@@ -1,0 +1,1043 @@
+Tue Nov  2 05:57:39 2021 -> +++ Started at Tue Nov  2 05:57:39 2021
+Tue Nov  2 05:57:39 2021 -> Received 0 file descriptor(s) from systemd.
+Tue Nov  2 05:57:39 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Tue Nov  2 05:57:39 2021 -> Log file size limited to 20971520 bytes.
+Tue Nov  2 05:57:39 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov  2 05:57:39 2021 -> Not loading PUA signatures.
+Tue Nov  2 05:57:39 2021 -> Bytecode: Security mode set to "TrustSigned".
+LibClamAV Warning: **************************************************
+LibClamAV Warning: ***  The virus database is older than 7 days!  ***
+LibClamAV Warning: ***   Please update it as soon as possible.    ***
+LibClamAV Warning: **************************************************
+Tue Nov  2 05:57:49 2021 -> Loaded 4297361 signatures.
+Tue Nov  2 05:58:02 2021 -> TCP: Bound to [::1]:3310
+Tue Nov  2 05:58:02 2021 -> TCP: Setting connection queue length to 200
+Tue Nov  2 05:58:02 2021 -> TCP: Bound to [127.0.0.1]:3310
+Tue Nov  2 05:58:02 2021 -> TCP: Setting connection queue length to 200
+Tue Nov  2 05:58:02 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Tue Nov  2 05:58:02 2021 -> LOCAL: Setting connection queue length to 200
+Tue Nov  2 05:58:02 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Tue Nov  2 05:58:02 2021 -> Limits: Global size limit set to 10240000 bytes.
+Tue Nov  2 05:58:02 2021 -> Limits: File size limit set to 10240000 bytes.
+Tue Nov  2 05:58:02 2021 -> Limits: Recursion level limit set to 16.
+Tue Nov  2 05:58:02 2021 -> Limits: Files limit set to 10000.
+Tue Nov  2 05:58:02 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Tue Nov  2 05:58:02 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Tue Nov  2 05:58:02 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Tue Nov  2 05:58:02 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Tue Nov  2 05:58:02 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Tue Nov  2 05:58:02 2021 -> Limits: MaxPartitions limit set to 50.
+Tue Nov  2 05:58:02 2021 -> Limits: MaxIconsPE limit set to 100.
+Tue Nov  2 05:58:02 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Tue Nov  2 05:58:02 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Tue Nov  2 05:58:02 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Tue Nov  2 05:58:02 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Tue Nov  2 05:58:02 2021 -> Archive support enabled.
+Tue Nov  2 05:58:02 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Tue Nov  2 05:58:02 2021 -> AlertExceedsMax heuristic detection disabled.
+Tue Nov  2 05:58:02 2021 -> Heuristic alerts enabled.
+Tue Nov  2 05:58:02 2021 -> Portable Executable support enabled.
+Tue Nov  2 05:58:02 2021 -> ELF support enabled.
+Tue Nov  2 05:58:02 2021 -> Mail files support enabled.
+Tue Nov  2 05:58:02 2021 -> OLE2 support enabled.
+Tue Nov  2 05:58:02 2021 -> PDF support enabled.
+Tue Nov  2 05:58:02 2021 -> SWF support enabled.
+Tue Nov  2 05:58:02 2021 -> HTML support enabled.
+Tue Nov  2 05:58:02 2021 -> XMLDOCS support enabled.
+Tue Nov  2 05:58:02 2021 -> HWP3 support enabled.
+Tue Nov  2 05:58:02 2021 -> Self checking every 600 seconds.
+Tue Nov  2 05:58:50 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov  2 05:59:27 2021 -> Database correctly reloaded (6491033 signatures)
+Tue Nov  2 05:59:27 2021 -> Activating the newly loaded database...
+Tue Nov  2 06:13:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 06:23:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 06:33:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 06:43:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 06:53:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 07:03:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 07:13:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 07:23:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 07:33:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 07:43:01 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 07:53:01 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 07:59:32 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov  2 07:59:58 2021 -> Database correctly reloaded (8573557 signatures)
+Tue Nov  2 07:59:58 2021 -> Activating the newly loaded database...
+Tue Nov  2 08:09:59 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 08:19:59 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 08:29:59 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 08:39:59 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 08:49:59 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 08:59:59 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 09:10:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 09:20:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 09:30:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 09:40:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 09:50:00 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 09:59:50 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov  2 10:01:07 2021 -> Database correctly reloaded (8573992 signatures)
+Tue Nov  2 10:01:07 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 10:01:07 2021 -> Activating the newly loaded database...
+Tue Nov  2 10:11:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 10:21:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 10:31:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 10:41:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 10:51:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 11:01:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 11:11:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 11:21:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 11:31:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 11:41:11 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 11:51:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 12:01:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 12:11:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 12:21:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 12:31:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 12:41:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 12:51:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 13:01:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 13:11:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 13:21:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 13:31:12 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 13:41:13 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 13:51:13 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 14:01:13 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 14:11:13 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 14:21:13 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 14:31:13 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 14:41:29 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 14:51:30 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 15:01:30 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 15:11:30 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 15:21:30 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 15:31:30 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 15:41:30 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 15:51:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 16:01:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 16:11:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 16:21:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 16:31:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 16:41:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 16:51:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 17:01:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 17:11:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 17:21:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 17:31:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 17:41:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 17:51:31 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 18:00:00 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov  2 18:00:39 2021 -> Database correctly reloaded (8574038 signatures)
+Tue Nov  2 18:00:39 2021 -> Activating the newly loaded database...
+Tue Nov  2 18:10:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 18:20:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 18:30:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 18:40:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 18:50:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 19:00:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 19:10:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 19:20:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 19:30:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 19:40:41 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 19:50:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 20:00:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 20:10:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 20:20:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 20:30:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 20:40:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 20:50:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 21:00:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 21:10:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 21:20:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 21:30:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 21:40:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 21:50:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 22:00:42 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 22:10:43 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 22:20:43 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 22:30:43 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 22:40:43 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 22:50:43 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 23:00:43 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 23:10:43 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 23:20:43 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 23:40:14 2021 -> SelfCheck: Database status OK.
+Tue Nov  2 23:50:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 00:00:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 00:10:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 00:20:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 00:30:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 00:40:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 00:50:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 01:00:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 01:10:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 01:20:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 01:30:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 01:40:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 01:50:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 02:00:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 02:10:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 02:20:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 02:30:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 02:40:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 02:50:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 03:00:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 03:10:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 03:20:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 03:30:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 03:40:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 03:50:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 04:00:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 04:10:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 04:20:16 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 04:30:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 04:40:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 04:50:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 05:00:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 05:10:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 05:20:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 05:30:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 05:40:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 05:50:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 06:00:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 06:10:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 06:20:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 06:30:17 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 06:40:18 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 06:50:18 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 07:00:18 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 07:10:18 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 07:20:18 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 07:30:18 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 07:40:18 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 07:50:18 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 08:00:10 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Wed Nov  3 08:00:36 2021 -> Database correctly reloaded (8574034 signatures)
+Wed Nov  3 08:00:36 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 08:00:36 2021 -> Activating the newly loaded database...
+Wed Nov  3 08:10:37 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 08:20:37 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 08:30:37 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 08:40:37 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 08:50:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 09:00:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 09:10:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 09:20:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 09:30:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 09:40:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 09:50:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 10:00:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 10:10:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 10:20:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 10:30:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 10:40:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 10:50:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 11:00:38 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 11:10:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 11:20:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 11:30:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 11:40:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 11:50:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 12:00:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 12:10:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 12:20:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 12:30:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 12:40:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 12:50:39 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 13:00:40 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 13:16:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 13:26:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 13:36:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 13:46:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 13:56:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 14:06:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 14:16:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 14:26:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 14:36:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 14:46:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 14:56:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 15:06:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 15:16:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 15:26:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 15:36:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 15:46:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 15:56:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 16:06:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 16:16:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 16:26:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 16:36:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 16:46:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 16:56:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 17:06:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 17:16:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 17:26:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 17:36:12 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 17:46:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 17:56:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 18:06:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 18:16:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 18:26:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 18:36:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 18:46:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 18:56:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 19:06:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 19:16:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 19:26:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 19:36:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 19:46:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 19:56:13 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 20:06:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 20:16:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 20:26:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 20:36:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 20:46:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 20:56:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 21:06:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 21:16:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 21:26:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 21:36:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 21:46:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 21:56:14 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 22:06:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 22:16:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 22:26:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 22:36:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 22:46:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 22:56:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 23:06:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 23:16:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 23:26:15 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 23:40:11 2021 -> SelfCheck: Database status OK.
+Wed Nov  3 23:50:11 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 00:00:11 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 00:10:11 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 00:20:11 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 00:30:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 00:40:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 00:50:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 01:00:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 01:10:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 01:20:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 01:30:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 01:40:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 01:50:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 02:00:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 02:10:12 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 02:20:13 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 02:30:13 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 02:40:13 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 02:50:13 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 03:00:13 2021 -> SelfCheck: Database status OK.
+Thu Nov  4 03:10:13 2021 -> SelfCheck: Database status OK.
+Mon Nov 15 21:54:02 2021 -> +++ Started at Mon Nov 15 21:54:02 2021
+Mon Nov 15 21:54:02 2021 -> Received 0 file descriptor(s) from systemd.
+Mon Nov 15 21:54:02 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Mon Nov 15 21:54:02 2021 -> Log file size limited to 20971520 bytes.
+Mon Nov 15 21:54:02 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 21:54:02 2021 -> Not loading PUA signatures.
+Mon Nov 15 21:54:02 2021 -> Bytecode: Security mode set to "TrustSigned".
+LibClamAV Warning: **************************************************
+LibClamAV Warning: ***  The virus database is older than 7 days!  ***
+LibClamAV Warning: ***   Please update it as soon as possible.    ***
+LibClamAV Warning: **************************************************
+Mon Nov 15 21:55:06 2021 -> Loaded 6145355 signatures.
+Mon Nov 15 21:55:17 2021 -> TCP: Bound to [::1]:3310
+Mon Nov 15 21:55:17 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 21:55:17 2021 -> TCP: Bound to [127.0.0.1]:3310
+Mon Nov 15 21:55:17 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 21:55:17 2021 -> LOCAL: Removing stale socket file /opt/zimbra/data/clamav/clamav.sock
+Mon Nov 15 21:55:17 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Mon Nov 15 21:55:17 2021 -> LOCAL: Setting connection queue length to 200
+Mon Nov 15 21:55:17 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Nov 15 21:55:17 2021 -> Limits: Global size limit set to 10240000 bytes.
+Mon Nov 15 21:55:17 2021 -> Limits: File size limit set to 10240000 bytes.
+Mon Nov 15 21:55:17 2021 -> Limits: Recursion level limit set to 16.
+Mon Nov 15 21:55:17 2021 -> Limits: Files limit set to 10000.
+Mon Nov 15 21:55:17 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Nov 15 21:55:17 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Nov 15 21:55:17 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Nov 15 21:55:17 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Nov 15 21:55:17 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Nov 15 21:55:17 2021 -> Limits: MaxPartitions limit set to 50.
+Mon Nov 15 21:55:17 2021 -> Limits: MaxIconsPE limit set to 100.
+Mon Nov 15 21:55:17 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Nov 15 21:55:17 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Mon Nov 15 21:55:17 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Mon Nov 15 21:55:17 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Nov 15 21:55:17 2021 -> Archive support enabled.
+Mon Nov 15 21:55:17 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Mon Nov 15 21:55:17 2021 -> AlertExceedsMax heuristic detection disabled.
+Mon Nov 15 21:55:17 2021 -> Heuristic alerts enabled.
+Mon Nov 15 21:55:17 2021 -> Portable Executable support enabled.
+Mon Nov 15 21:55:17 2021 -> ELF support enabled.
+Mon Nov 15 21:55:17 2021 -> Mail files support enabled.
+Mon Nov 15 21:55:17 2021 -> OLE2 support enabled.
+Mon Nov 15 21:55:17 2021 -> PDF support enabled.
+Mon Nov 15 21:55:17 2021 -> SWF support enabled.
+Mon Nov 15 21:55:17 2021 -> HTML support enabled.
+Mon Nov 15 21:55:17 2021 -> XMLDOCS support enabled.
+Mon Nov 15 21:55:17 2021 -> HWP3 support enabled.
+Mon Nov 15 21:55:17 2021 -> Self checking every 600 seconds.
+Mon Nov 15 21:55:31 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 21:56:00 2021 -> Database correctly reloaded (6494831 signatures)
+Mon Nov 15 21:56:00 2021 -> Activating the newly loaded database...
+Mon Nov 15 22:06:20 2021 -> SelfCheck: Database status OK.
+Mon Nov 15 22:16:20 2021 -> SelfCheck: Database status OK.
+Mon Nov 15 22:19:31 2021 -> Pid file removed.
+Mon Nov 15 22:19:31 2021 -> --- Stopped at Mon Nov 15 22:19:31 2021
+Mon Nov 15 22:19:31 2021 -> Socket file removed.
+Mon Nov 15 22:21:20 2021 -> +++ Started at Mon Nov 15 22:21:20 2021
+Mon Nov 15 22:21:20 2021 -> Received 0 file descriptor(s) from systemd.
+Mon Nov 15 22:21:20 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Mon Nov 15 22:21:20 2021 -> Log file size limited to 20971520 bytes.
+Mon Nov 15 22:21:20 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 22:21:20 2021 -> Not loading PUA signatures.
+Mon Nov 15 22:21:20 2021 -> Bytecode: Security mode set to "TrustSigned".
+Mon Nov 15 22:22:11 2021 -> Loaded 6494831 signatures.
+Mon Nov 15 22:22:28 2021 -> TCP: Bound to [::1]:3310
+Mon Nov 15 22:22:28 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 22:22:28 2021 -> TCP: Bound to [127.0.0.1]:3310
+Mon Nov 15 22:22:28 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 22:22:28 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Mon Nov 15 22:22:28 2021 -> LOCAL: Setting connection queue length to 200
+Mon Nov 15 22:22:28 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Nov 15 22:22:28 2021 -> Limits: Global size limit set to 10240000 bytes.
+Mon Nov 15 22:22:28 2021 -> Limits: File size limit set to 10240000 bytes.
+Mon Nov 15 22:22:28 2021 -> Limits: Recursion level limit set to 16.
+Mon Nov 15 22:22:28 2021 -> Limits: Files limit set to 10000.
+Mon Nov 15 22:22:28 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Nov 15 22:22:28 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Nov 15 22:22:28 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Nov 15 22:22:28 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Nov 15 22:22:28 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Nov 15 22:22:28 2021 -> Limits: MaxPartitions limit set to 50.
+Mon Nov 15 22:22:28 2021 -> Limits: MaxIconsPE limit set to 100.
+Mon Nov 15 22:22:28 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Nov 15 22:22:28 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Mon Nov 15 22:22:28 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Mon Nov 15 22:22:28 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Nov 15 22:22:28 2021 -> Archive support enabled.
+Mon Nov 15 22:22:28 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Mon Nov 15 22:22:28 2021 -> AlertExceedsMax heuristic detection disabled.
+Mon Nov 15 22:22:28 2021 -> Heuristic alerts enabled.
+Mon Nov 15 22:22:28 2021 -> Portable Executable support enabled.
+Mon Nov 15 22:22:28 2021 -> ELF support enabled.
+Mon Nov 15 22:22:28 2021 -> Mail files support enabled.
+Mon Nov 15 22:22:28 2021 -> OLE2 support enabled.
+Mon Nov 15 22:22:28 2021 -> PDF support enabled.
+Mon Nov 15 22:22:28 2021 -> SWF support enabled.
+Mon Nov 15 22:22:28 2021 -> HTML support enabled.
+Mon Nov 15 22:22:28 2021 -> XMLDOCS support enabled.
+Mon Nov 15 22:22:28 2021 -> HWP3 support enabled.
+Mon Nov 15 22:22:28 2021 -> Self checking every 600 seconds.
+Mon Nov 15 22:22:39 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 22:23:21 2021 -> Database correctly reloaded (8577355 signatures)
+Mon Nov 15 22:23:21 2021 -> Activating the newly loaded database...
+Mon Nov 15 22:33:22 2021 -> SelfCheck: Database status OK.
+Mon Nov 15 22:43:22 2021 -> SelfCheck: Database status OK.
+Mon Nov 15 22:53:22 2021 -> SelfCheck: Database status OK.
+Mon Nov 15 22:54:12 2021 -> Pid file removed.
+Mon Nov 15 22:54:12 2021 -> --- Stopped at Mon Nov 15 22:54:12 2021
+Mon Nov 15 22:54:12 2021 -> Socket file removed.
+Mon Nov 15 22:55:57 2021 -> +++ Started at Mon Nov 15 22:55:57 2021
+Mon Nov 15 22:55:57 2021 -> Received 0 file descriptor(s) from systemd.
+Mon Nov 15 22:55:57 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Mon Nov 15 22:55:57 2021 -> Log file size limited to 20971520 bytes.
+Mon Nov 15 22:55:57 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 22:55:57 2021 -> Not loading PUA signatures.
+Mon Nov 15 22:55:57 2021 -> Bytecode: Security mode set to "TrustSigned".
+Mon Nov 15 22:57:11 2021 -> Loaded 8577355 signatures.
+Mon Nov 15 22:57:20 2021 -> TCP: Bound to [::1]:3310
+Mon Nov 15 22:57:20 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 22:57:20 2021 -> TCP: Bound to [127.0.0.1]:3310
+Mon Nov 15 22:57:20 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 22:57:20 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Mon Nov 15 22:57:20 2021 -> LOCAL: Setting connection queue length to 200
+Mon Nov 15 22:57:20 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Nov 15 22:57:20 2021 -> Limits: Global size limit set to 10240000 bytes.
+Mon Nov 15 22:57:20 2021 -> Limits: File size limit set to 10240000 bytes.
+Mon Nov 15 22:57:20 2021 -> Limits: Recursion level limit set to 16.
+Mon Nov 15 22:57:20 2021 -> Limits: Files limit set to 10000.
+Mon Nov 15 22:57:20 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Nov 15 22:57:20 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Nov 15 22:57:20 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Nov 15 22:57:20 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Nov 15 22:57:20 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Nov 15 22:57:20 2021 -> Limits: MaxPartitions limit set to 50.
+Mon Nov 15 22:57:20 2021 -> Limits: MaxIconsPE limit set to 100.
+Mon Nov 15 22:57:20 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Nov 15 22:57:20 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Mon Nov 15 22:57:20 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Mon Nov 15 22:57:20 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Nov 15 22:57:20 2021 -> Archive support enabled.
+Mon Nov 15 22:57:20 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Mon Nov 15 22:57:20 2021 -> AlertExceedsMax heuristic detection disabled.
+Mon Nov 15 22:57:20 2021 -> Heuristic alerts enabled.
+Mon Nov 15 22:57:20 2021 -> Portable Executable support enabled.
+Mon Nov 15 22:57:20 2021 -> ELF support enabled.
+Mon Nov 15 22:57:20 2021 -> Mail files support enabled.
+Mon Nov 15 22:57:20 2021 -> OLE2 support enabled.
+Mon Nov 15 22:57:20 2021 -> PDF support enabled.
+Mon Nov 15 22:57:20 2021 -> SWF support enabled.
+Mon Nov 15 22:57:20 2021 -> HTML support enabled.
+Mon Nov 15 22:57:20 2021 -> XMLDOCS support enabled.
+Mon Nov 15 22:57:20 2021 -> HWP3 support enabled.
+Mon Nov 15 22:57:20 2021 -> Self checking every 600 seconds.
+Mon Nov 15 23:00:16 2021 -> Pid file removed.
+Mon Nov 15 23:00:16 2021 -> --- Stopped at Mon Nov 15 23:00:16 2021
+Mon Nov 15 23:00:16 2021 -> Socket file removed.
+Mon Nov 15 23:01:56 2021 -> +++ Started at Mon Nov 15 23:01:56 2021
+Mon Nov 15 23:01:56 2021 -> Received 0 file descriptor(s) from systemd.
+Mon Nov 15 23:01:56 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Mon Nov 15 23:01:56 2021 -> Log file size limited to 20971520 bytes.
+Mon Nov 15 23:01:56 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 23:01:56 2021 -> Not loading PUA signatures.
+Mon Nov 15 23:01:56 2021 -> Bytecode: Security mode set to "TrustSigned".
+Mon Nov 15 23:02:50 2021 -> Loaded 8577355 signatures.
+Mon Nov 15 23:02:59 2021 -> TCP: Bound to [::1]:3310
+Mon Nov 15 23:02:59 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 23:02:59 2021 -> TCP: Bound to [127.0.0.1]:3310
+Mon Nov 15 23:02:59 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 23:02:59 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Mon Nov 15 23:02:59 2021 -> LOCAL: Setting connection queue length to 200
+Mon Nov 15 23:02:59 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Nov 15 23:02:59 2021 -> Limits: Global size limit set to 10240000 bytes.
+Mon Nov 15 23:02:59 2021 -> Limits: File size limit set to 10240000 bytes.
+Mon Nov 15 23:02:59 2021 -> Limits: Recursion level limit set to 16.
+Mon Nov 15 23:02:59 2021 -> Limits: Files limit set to 10000.
+Mon Nov 15 23:02:59 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Nov 15 23:02:59 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Nov 15 23:02:59 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Nov 15 23:02:59 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Nov 15 23:02:59 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Nov 15 23:02:59 2021 -> Limits: MaxPartitions limit set to 50.
+Mon Nov 15 23:02:59 2021 -> Limits: MaxIconsPE limit set to 100.
+Mon Nov 15 23:02:59 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Nov 15 23:02:59 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Mon Nov 15 23:02:59 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Mon Nov 15 23:02:59 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Nov 15 23:02:59 2021 -> Archive support enabled.
+Mon Nov 15 23:02:59 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Mon Nov 15 23:02:59 2021 -> AlertExceedsMax heuristic detection disabled.
+Mon Nov 15 23:02:59 2021 -> Heuristic alerts enabled.
+Mon Nov 15 23:02:59 2021 -> Portable Executable support enabled.
+Mon Nov 15 23:02:59 2021 -> ELF support enabled.
+Mon Nov 15 23:02:59 2021 -> Mail files support enabled.
+Mon Nov 15 23:02:59 2021 -> OLE2 support enabled.
+Mon Nov 15 23:02:59 2021 -> PDF support enabled.
+Mon Nov 15 23:02:59 2021 -> SWF support enabled.
+Mon Nov 15 23:02:59 2021 -> HTML support enabled.
+Mon Nov 15 23:02:59 2021 -> XMLDOCS support enabled.
+Mon Nov 15 23:02:59 2021 -> HWP3 support enabled.
+Mon Nov 15 23:02:59 2021 -> Self checking every 600 seconds.
+Mon Nov 15 23:12:08 2021 -> Pid file removed.
+Mon Nov 15 23:12:08 2021 -> --- Stopped at Mon Nov 15 23:12:08 2021
+Mon Nov 15 23:12:08 2021 -> Socket file removed.
+Mon Nov 15 23:13:57 2021 -> +++ Started at Mon Nov 15 23:13:57 2021
+Mon Nov 15 23:13:57 2021 -> Received 0 file descriptor(s) from systemd.
+Mon Nov 15 23:13:57 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Mon Nov 15 23:13:57 2021 -> Log file size limited to 20971520 bytes.
+Mon Nov 15 23:13:57 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 23:13:57 2021 -> Not loading PUA signatures.
+Mon Nov 15 23:13:57 2021 -> Bytecode: Security mode set to "TrustSigned".
+Mon Nov 15 23:14:51 2021 -> Loaded 8577355 signatures.
+Mon Nov 15 23:15:01 2021 -> TCP: Bound to [::1]:3310
+Mon Nov 15 23:15:01 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 23:15:01 2021 -> TCP: Bound to [127.0.0.1]:3310
+Mon Nov 15 23:15:01 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 23:15:01 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Mon Nov 15 23:15:01 2021 -> LOCAL: Setting connection queue length to 200
+Mon Nov 15 23:15:01 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Nov 15 23:15:01 2021 -> Limits: Global size limit set to 10240000 bytes.
+Mon Nov 15 23:15:01 2021 -> Limits: File size limit set to 10240000 bytes.
+Mon Nov 15 23:15:01 2021 -> Limits: Recursion level limit set to 16.
+Mon Nov 15 23:15:01 2021 -> Limits: Files limit set to 10000.
+Mon Nov 15 23:15:01 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Nov 15 23:15:01 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Nov 15 23:15:01 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Nov 15 23:15:01 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Nov 15 23:15:01 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Nov 15 23:15:01 2021 -> Limits: MaxPartitions limit set to 50.
+Mon Nov 15 23:15:01 2021 -> Limits: MaxIconsPE limit set to 100.
+Mon Nov 15 23:15:01 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Nov 15 23:15:01 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Mon Nov 15 23:15:01 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Mon Nov 15 23:15:01 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Nov 15 23:15:01 2021 -> Archive support enabled.
+Mon Nov 15 23:15:01 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Mon Nov 15 23:15:01 2021 -> AlertExceedsMax heuristic detection disabled.
+Mon Nov 15 23:15:01 2021 -> Heuristic alerts enabled.
+Mon Nov 15 23:15:01 2021 -> Portable Executable support enabled.
+Mon Nov 15 23:15:01 2021 -> ELF support enabled.
+Mon Nov 15 23:15:01 2021 -> Mail files support enabled.
+Mon Nov 15 23:15:01 2021 -> OLE2 support enabled.
+Mon Nov 15 23:15:01 2021 -> PDF support enabled.
+Mon Nov 15 23:15:01 2021 -> SWF support enabled.
+Mon Nov 15 23:15:01 2021 -> HTML support enabled.
+Mon Nov 15 23:15:01 2021 -> XMLDOCS support enabled.
+Mon Nov 15 23:15:01 2021 -> HWP3 support enabled.
+Mon Nov 15 23:15:01 2021 -> Self checking every 600 seconds.
+Mon Nov 15 23:25:03 2021 -> SelfCheck: Database status OK.
+Mon Nov 15 23:33:23 2021 -> Pid file removed.
+Mon Nov 15 23:33:23 2021 -> --- Stopped at Mon Nov 15 23:33:23 2021
+Mon Nov 15 23:33:23 2021 -> Socket file removed.
+Mon Nov 15 23:35:02 2021 -> +++ Started at Mon Nov 15 23:35:02 2021
+Mon Nov 15 23:35:02 2021 -> Received 0 file descriptor(s) from systemd.
+Mon Nov 15 23:35:02 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Mon Nov 15 23:35:02 2021 -> Log file size limited to 20971520 bytes.
+Mon Nov 15 23:35:02 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 23:35:02 2021 -> Not loading PUA signatures.
+Mon Nov 15 23:35:02 2021 -> Bytecode: Security mode set to "TrustSigned".
+Mon Nov 15 23:35:46 2021 -> Loaded 8577355 signatures.
+Mon Nov 15 23:35:53 2021 -> TCP: Bound to [::1]:3310
+Mon Nov 15 23:35:53 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 23:35:53 2021 -> TCP: Bound to [127.0.0.1]:3310
+Mon Nov 15 23:35:53 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 23:35:53 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Mon Nov 15 23:35:53 2021 -> LOCAL: Setting connection queue length to 200
+Mon Nov 15 23:35:53 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Nov 15 23:35:53 2021 -> Limits: Global size limit set to 10240000 bytes.
+Mon Nov 15 23:35:53 2021 -> Limits: File size limit set to 10240000 bytes.
+Mon Nov 15 23:35:53 2021 -> Limits: Recursion level limit set to 16.
+Mon Nov 15 23:35:53 2021 -> Limits: Files limit set to 10000.
+Mon Nov 15 23:35:53 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Nov 15 23:35:53 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Nov 15 23:35:53 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Nov 15 23:35:53 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Nov 15 23:35:53 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Nov 15 23:35:53 2021 -> Limits: MaxPartitions limit set to 50.
+Mon Nov 15 23:35:53 2021 -> Limits: MaxIconsPE limit set to 100.
+Mon Nov 15 23:35:53 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Nov 15 23:35:53 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Mon Nov 15 23:35:53 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Mon Nov 15 23:35:53 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Nov 15 23:35:53 2021 -> Archive support enabled.
+Mon Nov 15 23:35:53 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Mon Nov 15 23:35:53 2021 -> AlertExceedsMax heuristic detection disabled.
+Mon Nov 15 23:35:53 2021 -> Heuristic alerts enabled.
+Mon Nov 15 23:35:53 2021 -> Portable Executable support enabled.
+Mon Nov 15 23:35:53 2021 -> ELF support enabled.
+Mon Nov 15 23:35:53 2021 -> Mail files support enabled.
+Mon Nov 15 23:35:53 2021 -> OLE2 support enabled.
+Mon Nov 15 23:35:53 2021 -> PDF support enabled.
+Mon Nov 15 23:35:53 2021 -> SWF support enabled.
+Mon Nov 15 23:35:53 2021 -> HTML support enabled.
+Mon Nov 15 23:35:53 2021 -> XMLDOCS support enabled.
+Mon Nov 15 23:35:53 2021 -> HWP3 support enabled.
+Mon Nov 15 23:35:53 2021 -> Self checking every 600 seconds.
+Mon Nov 15 23:47:45 2021 -> Pid file removed.
+Mon Nov 15 23:47:45 2021 -> --- Stopped at Mon Nov 15 23:47:45 2021
+Mon Nov 15 23:47:45 2021 -> Socket file removed.
+Mon Nov 15 23:49:34 2021 -> +++ Started at Mon Nov 15 23:49:34 2021
+Mon Nov 15 23:49:34 2021 -> Received 0 file descriptor(s) from systemd.
+Mon Nov 15 23:49:34 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Mon Nov 15 23:49:34 2021 -> Log file size limited to 20971520 bytes.
+Mon Nov 15 23:49:34 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Mon Nov 15 23:49:34 2021 -> Not loading PUA signatures.
+Mon Nov 15 23:49:34 2021 -> Bytecode: Security mode set to "TrustSigned".
+Mon Nov 15 23:50:38 2021 -> Loaded 8577355 signatures.
+Mon Nov 15 23:50:48 2021 -> TCP: Bound to [::1]:3310
+Mon Nov 15 23:50:48 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 23:50:48 2021 -> TCP: Bound to [127.0.0.1]:3310
+Mon Nov 15 23:50:48 2021 -> TCP: Setting connection queue length to 200
+Mon Nov 15 23:50:48 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Mon Nov 15 23:50:48 2021 -> LOCAL: Setting connection queue length to 200
+Mon Nov 15 23:50:48 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Mon Nov 15 23:50:48 2021 -> Limits: Global size limit set to 10240000 bytes.
+Mon Nov 15 23:50:48 2021 -> Limits: File size limit set to 10240000 bytes.
+Mon Nov 15 23:50:48 2021 -> Limits: Recursion level limit set to 16.
+Mon Nov 15 23:50:48 2021 -> Limits: Files limit set to 10000.
+Mon Nov 15 23:50:48 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Mon Nov 15 23:50:48 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Mon Nov 15 23:50:48 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Mon Nov 15 23:50:48 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Mon Nov 15 23:50:48 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Mon Nov 15 23:50:48 2021 -> Limits: MaxPartitions limit set to 50.
+Mon Nov 15 23:50:48 2021 -> Limits: MaxIconsPE limit set to 100.
+Mon Nov 15 23:50:48 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Mon Nov 15 23:50:48 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Mon Nov 15 23:50:48 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Mon Nov 15 23:50:48 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Mon Nov 15 23:50:48 2021 -> Archive support enabled.
+Mon Nov 15 23:50:48 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Mon Nov 15 23:50:48 2021 -> AlertExceedsMax heuristic detection disabled.
+Mon Nov 15 23:50:48 2021 -> Heuristic alerts enabled.
+Mon Nov 15 23:50:48 2021 -> Portable Executable support enabled.
+Mon Nov 15 23:50:48 2021 -> ELF support enabled.
+Mon Nov 15 23:50:48 2021 -> Mail files support enabled.
+Mon Nov 15 23:50:48 2021 -> OLE2 support enabled.
+Mon Nov 15 23:50:48 2021 -> PDF support enabled.
+Mon Nov 15 23:50:48 2021 -> SWF support enabled.
+Mon Nov 15 23:50:48 2021 -> HTML support enabled.
+Mon Nov 15 23:50:48 2021 -> XMLDOCS support enabled.
+Mon Nov 15 23:50:48 2021 -> HWP3 support enabled.
+Mon Nov 15 23:50:48 2021 -> Self checking every 600 seconds.
+Tue Nov 16 00:00:53 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 00:10:53 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 00:20:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 00:30:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 00:40:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 00:50:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 01:00:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 01:10:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 01:20:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 01:30:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 01:40:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 01:50:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 02:00:54 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 02:10:55 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 02:20:55 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 02:30:55 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 02:39:57 2021 -> Pid file removed.
+Tue Nov 16 02:39:57 2021 -> --- Stopped at Tue Nov 16 02:39:57 2021
+Tue Nov 16 02:39:57 2021 -> Socket file removed.
+Tue Nov 16 02:41:55 2021 -> +++ Started at Tue Nov 16 02:41:55 2021
+Tue Nov 16 02:41:55 2021 -> Received 0 file descriptor(s) from systemd.
+Tue Nov 16 02:41:55 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Tue Nov 16 02:41:55 2021 -> Log file size limited to 20971520 bytes.
+Tue Nov 16 02:41:55 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov 16 02:41:55 2021 -> Not loading PUA signatures.
+Tue Nov 16 02:41:55 2021 -> Bytecode: Security mode set to "TrustSigned".
+Tue Nov 16 02:42:58 2021 -> Loaded 8577355 signatures.
+Tue Nov 16 02:43:07 2021 -> TCP: Bound to [::1]:3310
+Tue Nov 16 02:43:07 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 02:43:07 2021 -> TCP: Bound to [127.0.0.1]:3310
+Tue Nov 16 02:43:07 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 02:43:07 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Tue Nov 16 02:43:07 2021 -> LOCAL: Setting connection queue length to 200
+Tue Nov 16 02:43:07 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Tue Nov 16 02:43:07 2021 -> Limits: Global size limit set to 10240000 bytes.
+Tue Nov 16 02:43:07 2021 -> Limits: File size limit set to 10240000 bytes.
+Tue Nov 16 02:43:07 2021 -> Limits: Recursion level limit set to 16.
+Tue Nov 16 02:43:07 2021 -> Limits: Files limit set to 10000.
+Tue Nov 16 02:43:07 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Tue Nov 16 02:43:07 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Tue Nov 16 02:43:07 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Tue Nov 16 02:43:07 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Tue Nov 16 02:43:07 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Tue Nov 16 02:43:07 2021 -> Limits: MaxPartitions limit set to 50.
+Tue Nov 16 02:43:07 2021 -> Limits: MaxIconsPE limit set to 100.
+Tue Nov 16 02:43:07 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Tue Nov 16 02:43:07 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Tue Nov 16 02:43:07 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Tue Nov 16 02:43:07 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Tue Nov 16 02:43:07 2021 -> Archive support enabled.
+Tue Nov 16 02:43:07 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Tue Nov 16 02:43:07 2021 -> AlertExceedsMax heuristic detection disabled.
+Tue Nov 16 02:43:07 2021 -> Heuristic alerts enabled.
+Tue Nov 16 02:43:07 2021 -> Portable Executable support enabled.
+Tue Nov 16 02:43:07 2021 -> ELF support enabled.
+Tue Nov 16 02:43:07 2021 -> Mail files support enabled.
+Tue Nov 16 02:43:07 2021 -> OLE2 support enabled.
+Tue Nov 16 02:43:07 2021 -> PDF support enabled.
+Tue Nov 16 02:43:07 2021 -> SWF support enabled.
+Tue Nov 16 02:43:07 2021 -> HTML support enabled.
+Tue Nov 16 02:43:07 2021 -> XMLDOCS support enabled.
+Tue Nov 16 02:43:07 2021 -> HWP3 support enabled.
+Tue Nov 16 02:43:07 2021 -> Self checking every 600 seconds.
+Tue Nov 16 02:53:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 03:03:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 03:08:17 2021 -> Pid file removed.
+Tue Nov 16 03:08:17 2021 -> --- Stopped at Tue Nov 16 03:08:17 2021
+Tue Nov 16 03:08:17 2021 -> Socket file removed.
+Tue Nov 16 03:10:31 2021 -> +++ Started at Tue Nov 16 03:10:31 2021
+Tue Nov 16 03:10:31 2021 -> Received 0 file descriptor(s) from systemd.
+Tue Nov 16 03:10:31 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Tue Nov 16 03:10:31 2021 -> Log file size limited to 20971520 bytes.
+Tue Nov 16 03:10:31 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov 16 03:10:31 2021 -> Not loading PUA signatures.
+Tue Nov 16 03:10:31 2021 -> Bytecode: Security mode set to "TrustSigned".
+Tue Nov 16 03:11:31 2021 -> Loaded 8577355 signatures.
+Tue Nov 16 03:11:42 2021 -> TCP: Bound to [::1]:3310
+Tue Nov 16 03:11:42 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 03:11:42 2021 -> TCP: Bound to [127.0.0.1]:3310
+Tue Nov 16 03:11:42 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 03:11:42 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Tue Nov 16 03:11:42 2021 -> LOCAL: Setting connection queue length to 200
+Tue Nov 16 03:11:42 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Tue Nov 16 03:11:42 2021 -> Limits: Global size limit set to 10240000 bytes.
+Tue Nov 16 03:11:42 2021 -> Limits: File size limit set to 10240000 bytes.
+Tue Nov 16 03:11:42 2021 -> Limits: Recursion level limit set to 16.
+Tue Nov 16 03:11:42 2021 -> Limits: Files limit set to 10000.
+Tue Nov 16 03:11:42 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Tue Nov 16 03:11:42 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Tue Nov 16 03:11:42 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Tue Nov 16 03:11:42 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Tue Nov 16 03:11:42 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Tue Nov 16 03:11:42 2021 -> Limits: MaxPartitions limit set to 50.
+Tue Nov 16 03:11:42 2021 -> Limits: MaxIconsPE limit set to 100.
+Tue Nov 16 03:11:42 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Tue Nov 16 03:11:42 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Tue Nov 16 03:11:42 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Tue Nov 16 03:11:42 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Tue Nov 16 03:11:42 2021 -> Archive support enabled.
+Tue Nov 16 03:11:42 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Tue Nov 16 03:11:42 2021 -> AlertExceedsMax heuristic detection disabled.
+Tue Nov 16 03:11:42 2021 -> Heuristic alerts enabled.
+Tue Nov 16 03:11:42 2021 -> Portable Executable support enabled.
+Tue Nov 16 03:11:42 2021 -> ELF support enabled.
+Tue Nov 16 03:11:42 2021 -> Mail files support enabled.
+Tue Nov 16 03:11:42 2021 -> OLE2 support enabled.
+Tue Nov 16 03:11:42 2021 -> PDF support enabled.
+Tue Nov 16 03:11:42 2021 -> SWF support enabled.
+Tue Nov 16 03:11:42 2021 -> HTML support enabled.
+Tue Nov 16 03:11:42 2021 -> XMLDOCS support enabled.
+Tue Nov 16 03:11:42 2021 -> HWP3 support enabled.
+Tue Nov 16 03:11:42 2021 -> Self checking every 600 seconds.
+Tue Nov 16 03:22:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 03:32:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 03:42:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 03:52:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 04:02:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 04:12:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 04:22:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 04:32:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 04:42:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 04:52:01 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 05:02:02 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 05:10:48 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov 16 05:11:22 2021 -> Database correctly reloaded (8577545 signatures)
+Tue Nov 16 05:11:22 2021 -> Activating the newly loaded database...
+Tue Nov 16 05:21:25 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 05:31:25 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 05:34:30 2021 -> Pid file removed.
+Tue Nov 16 05:34:30 2021 -> --- Stopped at Tue Nov 16 05:34:30 2021
+Tue Nov 16 05:34:30 2021 -> Socket file removed.
+Tue Nov 16 05:36:24 2021 -> +++ Started at Tue Nov 16 05:36:24 2021
+Tue Nov 16 05:36:24 2021 -> Received 0 file descriptor(s) from systemd.
+Tue Nov 16 05:36:24 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Tue Nov 16 05:36:24 2021 -> Log file size limited to 20971520 bytes.
+Tue Nov 16 05:36:24 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov 16 05:36:24 2021 -> Not loading PUA signatures.
+Tue Nov 16 05:36:24 2021 -> Bytecode: Security mode set to "TrustSigned".
+Tue Nov 16 05:37:04 2021 -> Loaded 6148867 signatures.
+Tue Nov 16 05:37:13 2021 -> TCP: Bound to [::1]:3310
+Tue Nov 16 05:37:13 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 05:37:13 2021 -> TCP: Bound to [127.0.0.1]:3310
+Tue Nov 16 05:37:13 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 05:37:13 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Tue Nov 16 05:37:13 2021 -> LOCAL: Setting connection queue length to 200
+Tue Nov 16 05:37:13 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Tue Nov 16 05:37:13 2021 -> Limits: Global size limit set to 44040192 bytes.
+Tue Nov 16 05:37:13 2021 -> Limits: File size limit set to 44040192 bytes.
+Tue Nov 16 05:37:13 2021 -> Limits: Recursion level limit set to 16.
+Tue Nov 16 05:37:13 2021 -> Limits: Files limit set to 10000.
+Tue Nov 16 05:37:13 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Tue Nov 16 05:37:13 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Tue Nov 16 05:37:13 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Tue Nov 16 05:37:13 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Tue Nov 16 05:37:13 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Tue Nov 16 05:37:13 2021 -> Limits: MaxPartitions limit set to 50.
+Tue Nov 16 05:37:13 2021 -> Limits: MaxIconsPE limit set to 100.
+Tue Nov 16 05:37:13 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Tue Nov 16 05:37:13 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Tue Nov 16 05:37:13 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Tue Nov 16 05:37:13 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Tue Nov 16 05:37:13 2021 -> Archive support enabled.
+Tue Nov 16 05:37:13 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Tue Nov 16 05:37:13 2021 -> AlertExceedsMax heuristic detection disabled.
+Tue Nov 16 05:37:13 2021 -> Heuristic alerts enabled.
+Tue Nov 16 05:37:13 2021 -> Portable Executable support enabled.
+Tue Nov 16 05:37:13 2021 -> ELF support enabled.
+Tue Nov 16 05:37:13 2021 -> Mail files support enabled.
+Tue Nov 16 05:37:13 2021 -> OLE2 support enabled.
+Tue Nov 16 05:37:13 2021 -> PDF support enabled.
+Tue Nov 16 05:37:13 2021 -> SWF support enabled.
+Tue Nov 16 05:37:13 2021 -> HTML support enabled.
+Tue Nov 16 05:37:13 2021 -> XMLDOCS support enabled.
+Tue Nov 16 05:37:13 2021 -> HWP3 support enabled.
+Tue Nov 16 05:37:13 2021 -> Self checking every 600 seconds.
+Tue Nov 16 05:37:21 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov 16 05:37:44 2021 -> Database correctly reloaded (6495021 signatures)
+Tue Nov 16 05:37:44 2021 -> Activating the newly loaded database...
+Tue Nov 16 05:47:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 05:57:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 06:07:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 06:17:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 06:27:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 06:37:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 06:47:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 06:57:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 07:07:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 07:17:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 07:27:56 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 07:37:57 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 07:38:07 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov 16 07:38:32 2021 -> Database correctly reloaded (8577545 signatures)
+Tue Nov 16 07:38:32 2021 -> Activating the newly loaded database...
+Tue Nov 16 07:48:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 07:58:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 08:08:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 08:18:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 08:28:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 08:38:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 08:48:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 08:58:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 09:08:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 09:18:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 09:28:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 09:38:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 09:48:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 09:58:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 10:08:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 10:18:33 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 10:28:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 10:38:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 10:48:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 10:58:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 11:08:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 11:18:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 11:28:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 11:38:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 11:48:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 11:58:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 12:08:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 12:18:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 12:28:34 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 12:38:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 12:48:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 12:58:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 13:08:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 13:18:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 13:28:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 13:38:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 13:48:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 13:58:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 14:08:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 14:18:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 14:28:35 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 14:38:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 14:48:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 14:58:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 15:08:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 15:18:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 15:28:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 15:38:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 15:48:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 15:58:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 16:08:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 16:18:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 16:28:36 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 16:38:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 16:48:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 16:58:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 17:08:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 17:18:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 17:28:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 17:38:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 17:48:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 17:58:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 18:08:37 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 18:18:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 18:28:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 18:38:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 18:48:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 18:58:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 19:08:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 19:18:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 19:28:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 19:38:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 19:48:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 19:58:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 20:08:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 20:18:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 20:28:38 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 20:38:39 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 20:48:39 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 20:58:39 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 21:00:15 2021 -> Pid file removed.
+Tue Nov 16 21:00:15 2021 -> --- Stopped at Tue Nov 16 21:00:15 2021
+Tue Nov 16 21:00:15 2021 -> Socket file removed.
+Tue Nov 16 21:01:32 2021 -> +++ Started at Tue Nov 16 21:01:32 2021
+Tue Nov 16 21:01:32 2021 -> Received 0 file descriptor(s) from systemd.
+Tue Nov 16 21:01:32 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Tue Nov 16 21:01:32 2021 -> Log file size limited to 20971520 bytes.
+Tue Nov 16 21:01:32 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov 16 21:01:32 2021 -> Not loading PUA signatures.
+Tue Nov 16 21:01:32 2021 -> Bytecode: Security mode set to "TrustSigned".
+Tue Nov 16 21:02:00 2021 -> Loaded 8577545 signatures.
+Tue Nov 16 21:02:09 2021 -> TCP: Bound to [::1]:3310
+Tue Nov 16 21:02:09 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 21:02:09 2021 -> TCP: Bound to [127.0.0.1]:3310
+Tue Nov 16 21:02:09 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 21:02:09 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Tue Nov 16 21:02:09 2021 -> LOCAL: Setting connection queue length to 200
+Tue Nov 16 21:02:09 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Tue Nov 16 21:02:09 2021 -> Limits: Global size limit set to 44040192 bytes.
+Tue Nov 16 21:02:09 2021 -> Limits: File size limit set to 44040192 bytes.
+Tue Nov 16 21:02:09 2021 -> Limits: Recursion level limit set to 16.
+Tue Nov 16 21:02:09 2021 -> Limits: Files limit set to 10000.
+Tue Nov 16 21:02:09 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Tue Nov 16 21:02:09 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Tue Nov 16 21:02:09 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Tue Nov 16 21:02:09 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Tue Nov 16 21:02:09 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Tue Nov 16 21:02:09 2021 -> Limits: MaxPartitions limit set to 50.
+Tue Nov 16 21:02:09 2021 -> Limits: MaxIconsPE limit set to 100.
+Tue Nov 16 21:02:09 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Tue Nov 16 21:02:09 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Tue Nov 16 21:02:09 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Tue Nov 16 21:02:09 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Tue Nov 16 21:02:09 2021 -> Archive support enabled.
+Tue Nov 16 21:02:09 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Tue Nov 16 21:02:09 2021 -> AlertExceedsMax heuristic detection disabled.
+Tue Nov 16 21:02:09 2021 -> Heuristic alerts enabled.
+Tue Nov 16 21:02:09 2021 -> Portable Executable support enabled.
+Tue Nov 16 21:02:09 2021 -> ELF support enabled.
+Tue Nov 16 21:02:09 2021 -> Mail files support enabled.
+Tue Nov 16 21:02:09 2021 -> OLE2 support enabled.
+Tue Nov 16 21:02:09 2021 -> PDF support enabled.
+Tue Nov 16 21:02:09 2021 -> SWF support enabled.
+Tue Nov 16 21:02:09 2021 -> HTML support enabled.
+Tue Nov 16 21:02:09 2021 -> XMLDOCS support enabled.
+Tue Nov 16 21:02:09 2021 -> HWP3 support enabled.
+Tue Nov 16 21:02:09 2021 -> Self checking every 600 seconds.
+Tue Nov 16 21:08:58 2021 -> Pid file removed.
+Tue Nov 16 21:08:58 2021 -> --- Stopped at Tue Nov 16 21:08:58 2021
+Tue Nov 16 21:08:58 2021 -> Socket file removed.
+Tue Nov 16 21:11:09 2021 -> +++ Started at Tue Nov 16 21:11:09 2021
+Tue Nov 16 21:11:09 2021 -> Received 0 file descriptor(s) from systemd.
+Tue Nov 16 21:11:09 2021 -> clamd daemon 0.103.2 (OS: linux-gnu, ARCH: x86_64, CPU: x86_64)
+Tue Nov 16 21:11:09 2021 -> Log file size limited to 20971520 bytes.
+Tue Nov 16 21:11:09 2021 -> Reading databases from /opt/zimbra/data/clamav/db
+Tue Nov 16 21:11:09 2021 -> Not loading PUA signatures.
+Tue Nov 16 21:11:09 2021 -> Bytecode: Security mode set to "TrustSigned".
+Tue Nov 16 21:11:40 2021 -> Loaded 8577545 signatures.
+Tue Nov 16 21:11:48 2021 -> TCP: Bound to [::1]:3310
+Tue Nov 16 21:11:48 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 21:11:48 2021 -> TCP: Bound to [127.0.0.1]:3310
+Tue Nov 16 21:11:48 2021 -> TCP: Setting connection queue length to 200
+Tue Nov 16 21:11:48 2021 -> LOCAL: Unix socket file /opt/zimbra/data/clamav/clamav.sock
+Tue Nov 16 21:11:48 2021 -> LOCAL: Setting connection queue length to 200
+Tue Nov 16 21:11:48 2021 -> Limits: Global time limit set to 120000 milliseconds.
+Tue Nov 16 21:11:48 2021 -> Limits: Global size limit set to 44040192 bytes.
+Tue Nov 16 21:11:48 2021 -> Limits: File size limit set to 44040192 bytes.
+Tue Nov 16 21:11:48 2021 -> Limits: Recursion level limit set to 16.
+Tue Nov 16 21:11:48 2021 -> Limits: Files limit set to 10000.
+Tue Nov 16 21:11:48 2021 -> Limits: MaxEmbeddedPE limit set to 10485760 bytes.
+Tue Nov 16 21:11:48 2021 -> Limits: MaxHTMLNormalize limit set to 10485760 bytes.
+Tue Nov 16 21:11:48 2021 -> Limits: MaxHTMLNoTags limit set to 2097152 bytes.
+Tue Nov 16 21:11:48 2021 -> Limits: MaxScriptNormalize limit set to 5242880 bytes.
+Tue Nov 16 21:11:48 2021 -> Limits: MaxZipTypeRcg limit set to 1048576 bytes.
+Tue Nov 16 21:11:48 2021 -> Limits: MaxPartitions limit set to 50.
+Tue Nov 16 21:11:48 2021 -> Limits: MaxIconsPE limit set to 100.
+Tue Nov 16 21:11:48 2021 -> Limits: MaxRecHWP3 limit set to 16.
+Tue Nov 16 21:11:48 2021 -> Limits: PCREMatchLimit limit set to 100000.
+Tue Nov 16 21:11:48 2021 -> Limits: PCRERecMatchLimit limit set to 2000.
+Tue Nov 16 21:11:48 2021 -> Limits: PCREMaxFileSize limit set to 26214400.
+Tue Nov 16 21:11:48 2021 -> Archive support enabled.
+Tue Nov 16 21:11:48 2021 -> WARNING: Using deprecated option "ArchiveBlockEncrypted" to alert on encrypted archives _and_ documents. Please update your configuration to use replacement options "AlertEncrypted", or "AlertEncryptedArchive" and/or "AlertEncryptedDoc".
+Tue Nov 16 21:11:48 2021 -> AlertExceedsMax heuristic detection disabled.
+Tue Nov 16 21:11:48 2021 -> Heuristic alerts enabled.
+Tue Nov 16 21:11:48 2021 -> Portable Executable support enabled.
+Tue Nov 16 21:11:48 2021 -> ELF support enabled.
+Tue Nov 16 21:11:48 2021 -> Mail files support enabled.
+Tue Nov 16 21:11:48 2021 -> OLE2 support enabled.
+Tue Nov 16 21:11:48 2021 -> PDF support enabled.
+Tue Nov 16 21:11:48 2021 -> SWF support enabled.
+Tue Nov 16 21:11:48 2021 -> HTML support enabled.
+Tue Nov 16 21:11:48 2021 -> XMLDOCS support enabled.
+Tue Nov 16 21:11:48 2021 -> HWP3 support enabled.
+Tue Nov 16 21:11:48 2021 -> Self checking every 600 seconds.
+Tue Nov 16 21:21:48 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 21:31:49 2021 -> SelfCheck: Database status OK.
+Tue Nov 16 21:41:49 2021 -> SelfCheck: Database status OK.

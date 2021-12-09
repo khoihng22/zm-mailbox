@@ -1,0 +1,6 @@
+[Tue Nov 16 20:59:57.579172 2021] [mpm_event:notice] [pid 32713:tid 140068474156864] AH00491: caught SIGTERM, shutting down
+[Tue Nov 16 21:01:40.345926 2021] [mpm_event:notice] [pid 24406:tid 139765996746560] AH00489: Apache/2.4.46 (Unix) PHP/7.3.25 configured -- resuming normal operations
+[Tue Nov 16 21:01:40.346038 2021] [core:notice] [pid 24406:tid 139765996746560] AH00094: Command line: '/opt/zimbra/common/bin/httpd -f /opt/zimbra/conf/httpd.conf'
+[Tue Nov 16 21:08:39.772634 2021] [mpm_event:notice] [pid 24406:tid 139765996746560] AH00491: caught SIGTERM, shutting down
+[Tue Nov 16 21:11:16.743855 2021] [mpm_event:notice] [pid 20687:tid 140422515373888] AH00489: Apache/2.4.46 (Unix) PHP/7.3.25 configured -- resuming normal operations
+[Tue Nov 16 21:11:16.743924 2021] [core:notice] [pid 20687:tid 140422515373888] AH00094: Command line: '/opt/zimbra/common/bin/httpd -f /opt/zimbra/conf/httpd.conf'

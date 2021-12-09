@@ -1,0 +1,5 @@
+
+*** swatchdog version 3.2.4 (pid:20672) started at Tue Nov 16 21:11:16 EST 2021
+
+SNMP notification: Nov 16 05:37:54 mail zmconfigd[29535]: Service status change: mail.nhk.com mta changed from stopped to running
+SNMP notification: Nov 16 05:37:55 mail zmconfigd[29535]: Service status change: mail.nhk.com stats changed from stopped to running
